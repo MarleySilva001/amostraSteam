@@ -26,7 +26,7 @@ const SplashScreen = () => {
                         animate={{ opacity: 1, scale: 1  }}
                         transition={{ duration: 3 }}
                     >
-                        SplashScreen
+                        <img src="logo.png" alt="" />
                     </motion.div>
                 ) : (
                     Navigate('/home')
