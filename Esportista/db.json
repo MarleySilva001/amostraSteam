@@ -1,0 +1,23 @@
+{
+    "jogadores": [
+        {
+            "id":1,
+            "nome":"Neymar",
+            "fotoJ":"https://i.pinimg.com/originals/54/47/69/544769e6a33c708cc46aef50ccfd5277.png",
+            "idade":32,
+            "nacionalidade":"Brasileiro",
+            "clube":"Al-hilal",
+            "camisa":10
+        },
+        {
+            "id":2,
+            "nome":"Vinicius Jr",
+            "fotoJ":"https://i.pinimg.com/originals/54/47/69/544769e6a33c708cc46aef50ccfd5277.png",
+            "idade":24,
+            "nacionalidade":"Brasileiro",
+            "clube":"Real Madrid",
+            "camisa":10
+        }
+    ]
+}
+
