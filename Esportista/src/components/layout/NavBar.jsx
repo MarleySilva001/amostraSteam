@@ -7,7 +7,7 @@ import style from './NavBar.module.css';
 const NavBar = () => {
   return (
     <div className={style.start}>
-      <a href="/home"><img src="logo" alt="" /> Esportista</a>
+      <a href="/home"><img src="logo.png" alt="" /> Esportista</a>
       <nav>
         <ul className={style.lista}>
           <li className={style.item}>           
