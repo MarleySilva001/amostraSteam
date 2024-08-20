@@ -1,29 +1,30 @@
 import React from 'react';
-import styles from './Login.module.css'
 import Button from '../components/layout/Button';
 import Input from '../components/layout/Input';
+import { FcGoogle } from "react-icons/fc";
+import { FaFacebook } from "react-icons/fa6";
+import styles from './Login.module.css'
 
 const Login = () => {
     return (
         <div className={styles.row}>
-            <div><img src="" alt="" /></div>
-            <div>
-                <p>Esportista</p>
-                <Input 
-                type={text}
-                placeholder={'Digite seu usuario'}
-                required={true}
-                />
-                <Input 
-                type={password}
-                placeholder={'Digite sua senha'}
-                required={true}
-                />
-                <a href="/home"><Button nome={'Entrar'}/></a>
-                <div><a href=""><img src="" alt="" />Entrar com o google</a></div>
-                <a href="">esqueceu a senha!</a>
-                <a href="/cadastro">cadastrar</a>
-                <a href=""><Button nome={'entrar sem login'}/></a>
+            <div><img src="logo.png" alt="" /></div>
+            <div className={styles.form}>
+                <div className={styles.box}>
+                    <p className={styles.titulo}>Esportista</p>
+                    <form action="">
+                        <Input nome={'usuario:'} type={'text'} placeholder={'Digite seu usuário ou email'} />
+                        <Input nome={'senha:'} type={'password'} placeholder={'Digite sua senha'} />
+                    </form>
+                    <a href="/home"><Button nome={'Entrar'} /></a>
+                    <a href="" className={styles.esqueceuSenha}>esqueceu a senha?</a>
+                    <button className={styles.google}><FcGoogle /> Continuar com o Google</button>
+                    <button className={styles.google}><FaFacebook /> Continuar com o Facebook</button>
+                </div>
+                <div className={styles.box}>
+                    <p className={styles.cadastro}>Sem uma conta?<a href="/cadastro" >cadastrar</a></p>
+                    
+                </div>
             </div>
         </div>
     );

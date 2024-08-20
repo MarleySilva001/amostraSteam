@@ -11,7 +11,7 @@ const SplashScreen = () => {
     useEffect(() => {
         const timer = setTimeout(() => {
             setCarregando(false)
-        }, 6000)
+        }, 2200)
         return () => {
             clearTimeout(timer)
         };
@@ -24,7 +24,7 @@ const SplashScreen = () => {
                     <motion.div
                         initial={{ opacity: 0, scale: 0.1 }}
                         animate={{ opacity: 1, scale: 1  }}
-                        transition={{ duration: 3 }}
+                        transition={{ duration: 1.5 }}
                     >
                         <img src="logo.png" alt="" />
                     </motion.div>

@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import NavBar from '../components/layout/NavBar';
+import CardJogador from '../components/layout/CardJogador';
+import styles from './Esportes.module.css'
 
 const Esportes = () => {
   const [jogadores, setJogadores] = useState([]);
@@ -32,12 +34,16 @@ const Esportes = () => {
         <ul>
           {jogadores.map(jogador => (
             <li key={jogador.id}>
-              <img src={jogador.fotoJ} alt={jogador.nome} width={100} />
-              <h2>{jogador.nome}</h2>
-              <p>Idade: {jogador.idade}</p>
-              <p>Clube: {jogador.clube}</p>
-              <p>Nacionalidade: {jogador.nacionalidade}</p>
-              <p>Camisa: {jogador.camisa}</p>
+              <CardJogador 
+              nome={jogador.nome}
+              jogadorImg={jogador.jogadorImg}
+              idade={jogador.idade}
+              nacionalidade={jogador.nacionalidade}
+              nacionalidadeImg={jogador.nacionalidadeImg}
+              clube={jogador.clube}
+              clubeImg={jogador.clubeImg}
+              camisa={jogador.camisa}
+              />
             </li>
           ))}
         </ul>

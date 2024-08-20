@@ -1,0 +1,19 @@
+.card img{
+height: 60px;
+}
+
+.card{
+    background-color: rgb(204, 204, 204);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+.ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 6px 10px;
+}
