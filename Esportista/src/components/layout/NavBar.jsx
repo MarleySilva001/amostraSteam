@@ -6,8 +6,12 @@ import style from './NavBar.module.css';
 
 const NavBar = () => {
   return (
+    <>
+    <div className={style.cimento}></div>
     <div className={style.start}>
+      <div className={style.logo}>
       <a href="/home"><img src="logo.png" alt="" /> Esportista</a>
+      </div>
       <nav>
         <ul className={style.lista}>
           <li className={style.item}>           
@@ -28,6 +32,7 @@ const NavBar = () => {
         </ul>
       </nav>
     </div>
+    </>
   )
 }
 

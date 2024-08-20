@@ -1,17 +1,29 @@
 .start{
     display: flex;
     flex-direction: column;
+    position:fixed;
     height: 100vh;
-    width: 20vw;  
+    width: 18vw;  
     gap: 40px;
     padding: 0px 10px 0px 14px;
     background-color: rgb(206, 206, 206);
 }
 
-.start a {
+.cimento{
+    width: 18vw;
+    padding: 0px 10px 0px 14px;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
     padding-top: 30px;
-    font-size: 34px;
+    font-size: 32px;
     text-decoration: none;
+}
+
+.logo img{
+    width: 70px;
 }
 
 .lista{
@@ -26,15 +38,16 @@
 .item{
  display: flex;
  align-items: center;
+ justify-content: center;
  border-radius: 6px;
 }
 
 .item a {
     text-decoration: none;
     width: 18vw;
-    font-size: 19px;
+    font-size: 16px;
     color: black;
-    padding: 8px 4px;
+    padding: 6px 4px;
     display: flex;
     gap: 8px;
     align-items: center;
