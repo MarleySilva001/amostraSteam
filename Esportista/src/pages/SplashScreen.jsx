@@ -29,7 +29,7 @@ const SplashScreen = () => {
                         <img src="logo.png" alt="" />
                     </motion.div>
                 ) : (
-                    Navigate('/home')
+                    Navigate('/login')
                 )}
 
             </Container>
