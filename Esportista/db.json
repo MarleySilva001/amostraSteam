@@ -1,60 +1,145 @@
 {
-    "jogadores": [
+    "clubes": [
         {
-            "id":1,
-            "nome":"Neymar",
-            "jogadorImg":"https://i.pinimg.com/originals/54/47/69/544769e6a33c708cc46aef50ccfd5277.png",
-            "idade":32,
-            "nacionalidade":"Bra",
-            "nacionalidadeImg":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/640px-Flag_of_Brazil.svg.png",
-            "clube":"Al-hilal",
-            "clubeImg":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Al_Hilal_SFC_Logo.svg/640px-Al_Hilal_SFC_Logo.svg.png",
-            "camisa":10
+            "id": 1,
+            "nome":"Flamengo",
+            "clubeImg":"",
+            "estadio":"Maracanã",
+            "loc": "Rio de Janeiro-RJ"
         },
         {
-           "id":2,
-            "nome":"Vinícius Jr.",
-            "jogadorImg":"logo.png",
-            "idade":23,
-            "nacionalidade":"Bra",
-            "nacionalidadeImg":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/640px-Flag_of_Brazil.svg.png",
-            "clube":"Real Madrid",
-            "clubeImg":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Al_Hilal_SFC_Logo.svg/640px-Al_Hilal_SFC_Logo.svg.png",
-            "camisa":7
+            "id": 2,
+            "nome":"Palmeiras",
+            "clubeImg":"",
+            "estadio":"Allianz Park",
+            "loc": "São Paulo-SP"
         },
         {
-            "id":2,
-             "nome":"Vinícius Jr.",
-             "jogadorImg":"logo.png",
-             "idade":23,
-             "nacionalidade":"Bra",
-             "nacionalidadeImg":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/640px-Flag_of_Brazil.svg.png",
-             "clube":"Real Madrid",
-             "clubeImg":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Al_Hilal_SFC_Logo.svg/640px-Al_Hilal_SFC_Logo.svg.png",
-             "camisa":7
-         },
-         {
-            "id":2,
-             "nome":"Vinícius Jr.",
-             "jogadorImg":"logo.png",
-             "idade":23,
-             "nacionalidade":"Bra",
-             "nacionalidadeImg":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/640px-Flag_of_Brazil.svg.png",
-             "clube":"Real Madrid",
-             "clubeImg":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Al_Hilal_SFC_Logo.svg/640px-Al_Hilal_SFC_Logo.svg.png",
-             "camisa":7
-         },
-         {
-            "id":2,
-             "nome":"Vinícius Jr.",
-             "jogadorImg":"logo.png",
-             "idade":23,
-             "nacionalidade":"Bra",
-             "nacionalidadeImg":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/640px-Flag_of_Brazil.svg.png",
-             "clube":"Real Madrid",
-             "clubeImg":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Al_Hilal_SFC_Logo.svg/640px-Al_Hilal_SFC_Logo.svg.png",
-             "camisa":7
-         }
+            "id": 3,
+            "nome":"Botafogo",
+            "clubeImg":"",
+            "estadio":"Nilton Santos",
+            "loc": "Rio de Janeiro-RJ"
+        },
+        {
+            "id": 4,
+            "nome":"Cruzeiro",
+            "clubeImg":"",
+            "estadio":"Mineirão",
+            "loc": "Belo Horizonte-MG"
+        },
+        {
+            "id": 5,
+            "nome":"São Paulo",
+            "clubeImg":"",
+            "estadio":"Morumbis",
+            "loc": "São Paulo-SP"
+        },
+        {
+            "id": 6,
+            "nome":"Fortaleza",
+            "clubeImg":"",
+            "estadio":"Arena Castelão",
+            "loc": "Fortaleza-CE"
+        },
+        {
+            "id": 7,
+            "nome":"Bahia",
+            "clubeImg":"",
+            "estadio":"Arena Fonte Nova",
+            "loc": "Salvador-BA"
+        },
+        {
+            "id": 8,
+            "nome":"Atlético-MG",
+            "clubeImg":"",
+            "estadio":"Arena MRV",
+            "loc": "Belo Horizonte-MG"
+        },
+        {
+            "id": 9,
+            "nome":"Athletico-PR",
+            "clubeImg":"",
+            "estadio":"Ligga Aerna",
+            "loc": "Curitiba-PR"
+        },
+        {
+            "id": 10,
+            "nome":"Vasco da Gama",
+            "clubeImg":"",
+            "estadio":" São Januário",
+            "loc": "Rio de Janeiro-RJ"
+        },
+        {
+            "id": 11,
+            "nome":"Juventude",
+            "clubeImg":"",
+            "estadio":"Alfredo Jaconi",
+            "loc": "Caxias do Sul-RS"
+        },
+        {
+            "id": 12,
+            "nome":"RB Bragantino",
+            "clubeImg":"",
+            "estadio":"Nabi Abi Chedid",
+            "loc": "Bragança Paulista-SP"
+        },
+        {
+            "id": 13,
+            "nome":"Internacional",
+            "clubeImg":"",
+            "estadio":"Beira Rio",
+            "loc": "Porto Alegre-RS"
+        },
+        {
+            "id": 14,
+            "nome":"Criciúma",
+            "clubeImg":"",
+            "estadio":"Heriberto Hülse",
+            "loc": "Criciúma-SC"
+        },
+        {
+            "id": 15,
+            "nome":"Grêmio",
+            "clubeImg":"",
+            "estadio":"Arena do Grêmio",
+            "loc": "Porto Alegre-RS"
+        },
+        {
+            "id": 16,
+            "nome":"EC Vitoria",
+            "clubeImg":"",
+            "estadio":"Manoel Barradas",
+            "loc": "Salvador-BA"
+        },
+        {
+            "id": 17,
+            "nome":"Corinthians",
+            "clubeImg":"",
+            "estadio":"Neo Química Arena",
+            "loc": "São Paulo-SP"
+        },
+        {
+            "id": 18,
+            "nome":"Fluminense",
+            "clubeImg":"",
+            "estadio":"Maracanã",
+            "loc": "Rio de Janeiro-RJ"
+        },
+        {
+            "id": 19,
+            "nome":"Cuiabá",
+            "clubeImg":"",
+            "estadio":"Arena Pantanal",
+            "loc": "Cuiabá-MT"
+        },
+        {
+            "id": 20,
+            "nome":"Atlético-GO",
+            "clubeImg":"",
+            "estadio":"Antônio Accioly",
+            "loc": "Goiânia-GO"
+        }
     ]
 }
 
