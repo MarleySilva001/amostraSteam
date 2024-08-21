@@ -1,5 +1,8 @@
 .card img{
-height: 60px;
+height: 30px;
+width: 30px;
+object-fit:cover;
+border-radius: 44px;
 }
 
 .card{
@@ -11,9 +14,34 @@ height: 60px;
     border-radius: 8px;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.row p{
+    font-size: 26px;
+}
+
+.row img{
+    width: 80px;
+    height: 80px;
+    object-fit:contain;
+}
+
 .ul {
     list-style: none;
     display: flex;
     flex-direction: row;
     padding: 6px 10px;
+    gap: 10px;
+}
+
+.ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
 }

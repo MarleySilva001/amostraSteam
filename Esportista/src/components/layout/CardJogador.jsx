@@ -3,7 +3,7 @@ import styles from "./CardJogador.module.css";
 const CardJogador = ({nome, jogadorImg, idade, nacionalidade, nacionalidadeImg, clube, clubeImg, camisa}) => {
     return(
         <div className={styles.card}>
-            <div>
+            <div className={styles.row}>
                 <img src={jogadorImg} alt={nome} />
                 <p>{nome}</p>
             </div>

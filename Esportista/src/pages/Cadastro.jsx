@@ -19,7 +19,7 @@ export default function Cadastro() {
                     <a href="/home"><Button nome={'Cadastrar'} /></a>
                 </div>
                 <div className={styles.box}>
-                    <p className={styles.cadastro}>Já tem uma conta?<a href="/cadastro" >Conectar</a></p>
+                    <p className={styles.cadastro}>Já tem uma conta?<a href="/login" >Conectar</a></p>
                     
                 </div>
             </div>

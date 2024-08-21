@@ -31,7 +31,7 @@ const Esportes = () => {
         <h1>Jogadores</h1>
         {carregando && <p>Carregando...</p>}
         {erro && <p>{erro}</p>}
-        <ul>
+        <ul className={styles.lista}>
           {jogadores.map(jogador => (
             <li key={jogador.id}>
               <CardJogador 
