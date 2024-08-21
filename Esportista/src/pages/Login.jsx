@@ -8,9 +8,11 @@ import styles from './Login.module.css'
 const Login = () => {
     return (
         <div className={styles.row}>
-            <div><img src="logo.png" alt="" /></div>
+            <div className={styles.box}>
+            <div className={styles.formColor}><img src="logo.png" alt="" />
+            </div>
             <div className={styles.form}>
-                <div className={styles.box}>
+                
                     <p className={styles.titulo}>Esportista</p>
                     <form action="">
                         <Input nome={'usuario:'} type={'text'} placeholder={'Digite seu usuário ou email'} />
@@ -20,11 +22,9 @@ const Login = () => {
                     <a href="" className={styles.esqueceuSenha}>esqueceu a senha?</a>
                     <button className={styles.google}><FcGoogle /> Continuar com o Google</button>
                     <button className={styles.google}><FaFacebook /> Continuar com o Facebook</button>
-                </div>
-                <div className={styles.box}>
                     <p className={styles.cadastro}>Sem uma conta?<a href="/cadastro" >cadastrar</a></p>
-                    
                 </div>
+                
             </div>
         </div>
     );

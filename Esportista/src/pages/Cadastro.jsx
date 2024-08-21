@@ -15,12 +15,9 @@ export default function Cadastro() {
                         <Input nome={'usuario:'} type={'text'} placeholder={'Digite seu usuário'} />
                         <Input nome={'senha:'} type={'password'} placeholder={'Digite sua senha'} />
                         <Input nome={'confirmar a senha:'} type={'password'} placeholder={'Digite novamente sua senha'} />
-                    </form>
-                    <a href="/home"><Button nome={'Cadastrar'} /></a>
-                </div>
-                <div className={styles.box}>
+                   </form>
+                    <a href="/home"><Button nome={'Cadastrar'} /></a> 
                     <p className={styles.cadastro}>Já tem uma conta?<a href="/login" >Conectar</a></p>
-                    
                 </div>
             </div>
         </div>
