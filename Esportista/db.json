@@ -140,6 +140,13 @@
             "estadio":"Antônio Accioly",
             "loc": "Goiânia-GO"
         }
+    ],
+    "jogadores": [
+        {
+            "id": 1,
+            "nome": "",
+            "posicao"
+        }
     ]
 }
 
