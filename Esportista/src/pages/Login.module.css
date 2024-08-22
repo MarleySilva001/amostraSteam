@@ -5,7 +5,15 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #d4bde9;
+    background-color: #cea0f8be;
+}
+
+.miniRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 }
 
 .titulo {
@@ -52,27 +60,46 @@
 
 }
 
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center p {
+    margin: 0px;
+    margin-bottom: 6px;
+
+}
+
 .google {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 4px;
-    padding: 8px 0px;
-    border: 1px solid black;
-    width: 260px;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    background-color: white;
     cursor: pointer;
 }
 
+.google svg {
+    width: 30px;
+    height: 30px;
+    color: #0065F7; 
+}
 
 .google:hover {
-    background-color: #dddddd;
+    background-color: #eeeeee;
 }
 
 .esqueceuSenha {
     color: rgb(1, 0, 51);
     text-decoration: none;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .esqueceuSenha:hover {
