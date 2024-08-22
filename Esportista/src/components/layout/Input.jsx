@@ -1,22 +1,25 @@
+import React from 'react';
 import styles from "./Input.module.css";
 
-const Input = ({ type, placeholder, nome }) => {
+const Input = ({ type, placeholder, nome, value, onChange, name }) => {
     return (
         <div className={styles.column}>
-            <label htmlFor={nome} className={styles.label}>
+            <label htmlFor={name} className={styles.label}>
                 {nome}
-                </label>
-                <input 
+            </label>
+            <input 
                 className={styles.input}
                 type={type} 
-                name={nome}
+                name={name}
+                value={value}
+                onChange={onChange}
                 placeholder={placeholder} 
-                required="" 
+                required 
                 minLength={7} 
                 maxLength={75} 
-                />
+            />
         </div>
-    )
+    );
 }
 
 export default Input;
