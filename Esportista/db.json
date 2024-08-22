@@ -1,4 +1,5 @@
 {
+    "usuarios": [],
     "clubes": [
         {
             "id": 1,
@@ -144,9 +145,229 @@
     "jogadores": [
         {
             "id": 1,
-            "nome": "",
-            "posicao": ""
+            "nome": "Matheus Cunha",
+            "posicao": "Goleiro",
+            "idade": 23,
+            "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
+            "altura": "1.90m",
+            "camisa": 25
+        },
+        {
+            "id": 2,
+            "nome": "Rossi",
+            "posicao": "Goleiro",
+            "idade": 29,
+            "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
+            "altura": "1.88m",
+            "camisa": 1
+        },
+        {
+            "id": 3,
+            "nome": "Cleiton",
+            "posicao": "Zagueiro",
+            "idade": 21,
+            "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
+            "altura": "1.90m",
+            "camisa": 33
+        },
+
+        {
+            "id": 4,
+            "nome": "David Luiz",
+            "posicao": "Zagueiro",
+            "idade": 37,
+            "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
+            "altura": "1.75m",
+            "camisa": 23
+        },
+        {
+            "id": 5,
+            "nome": "Léo Pereira",
+            "posicao": "Zagueiro",
+            "idade": 28,
+            "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
+            "altura": "m",
+            "camisa": 4
+        },
+        {
+            "id": 6,
+            "nome": "Fabrício Bruno",
+            "posicao": "Zagueiro",
+            "idade": 28,
+            "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
+            "altura": "m",
+            "camisa": 15 
+        },
+        {
+            "id": 7,
+            "nome": "Léo Ortiz",
+            "posicao": "Zagueiro",
+            "idade": 28,
+            "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
+            "altura": "m",
+            "camisa": 3
+        },
+        {
+            "id": 8,
+            "nome": "Varela",
+            "posicao": "Lateral Direito",
+            "idade": 31,
+            "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
+            "altura": "m",
+            "camisa": 2
+        },
+        {
+            "id": 9,
+            "nome": "Wesley",
+            "posicao": "Lateral Direito",
+            "idade": 20,
+            "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
+            "altura": "m",
+            "camisa": 43
+        },
+        {
+            "id": 10,
+            "nome": "Matías Viña",
+            "posicao": "Lateral Esquerdo",
+            "idade": 26,
+            "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
+            "altura": "m",
+            "camisa": 176
+        },
+        {
+            "id": 11,
+            "nome": "Ayrton Lucas",
+            "posicao": "Lateral Esquerdo",
+            "idade": 27,
+            "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
+            "altura": "m",
+            "camisa": 6
+        },
+        {
+            "id": 12,
+            "nome": "Erick Pulgar",
+            "posicao": "Volante",
+            "idade": 30,
+            "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
+            "altura": "m",
+            "camisa": 5
+        },
+        {
+            "id": 13,
+            "nome": "Gerson",
+            "posicao": "Volante",
+            "idade": 27,
+            "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
+            "altura": "m",
+            "camisa": 8 
+        },
+        {
+            "id": 14,
+            "nome": "Allan",
+            "posicao": "Volante",
+            "idade": 27,
+            "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
+            "altura": "m",
+            "camisa": 21 
+        },
+        {
+            "id": 15,
+            "nome": "Matheus Gonçalves",
+            "posicao": "Meia",
+            "idade": 19,
+            "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
+            "altura": "m",
+            "camisa": 20 
+        },
+        {
+            "id": 16,
+            "nome": "De Arrascaeta",
+            "posicao": "Meia",
+            "idade": 29,
+            "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
+            "altura": "m",
+            "camisa": 14
+        },
+        {
+            "id": 17,
+            "nome": "Victor Hugo",
+            "posicao": "",
+            "idade": 20,
+            "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
+            "altura": "m",
+            "camisa": 29
+        },
+        {
+            "id": 18,
+            "nome": "De La Cruz",
+            "posicao": "Meia",
+            "idade": 27,
+            "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
+            "altura": "m",
+            "camisa": 18
+        },
+        {
+            "id": 19,
+            "nome": "Lorran",
+            "posicao": "Meia",
+            "idade": 2,
+            "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
+            "altura": "m",
+            "camisa": 19
+        },
+        {
+            "id": 20,
+            "nome": "Gabi",
+            "posicao": "",
+            "idade": 27,
+            "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
+            "altura": "m",
+            "camisa": 99
+        },
+        {
+            "id": 21,
+            "nome": "Bruno Henrique",
+            "posicao": "Atacante",
+            "idade": 27,
+            "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
+            "altura": "m",
+            "camisa": 33
+        },
+        {
+            "id": 22,
+            "nome": "Pedro",
+            "posicao": "Atacante",
+            "idade": 27,
+            "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
+            "altura": "m",
+            "camisa": 9 
+        },
+        {
+            "id": 23,
+            "nome": "Everton Cebolinha",
+            "posicao": "",
+            "idade": 28,
+            "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
+            "altura": "m",
+            "camisa": 11 
+        },
+        {
+            "id": 24,
+            "nome": "Luiz Araujo",
+            "posicao": "Atacante",
+            "idade": 28,
+            "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
+            "altura": "m",
+            "camisa": 7
+        },
+        {
+            "id": 25,
+            "nome": "Carlinhos",
+            "posicao": "Atacante",
+            "idade": 28,
+            "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
+            "altura": "m",
+            "camisa": 22
         }
     ]
 }
-

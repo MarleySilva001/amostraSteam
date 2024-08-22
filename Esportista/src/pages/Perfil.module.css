@@ -1,0 +1,36 @@
+.view{
+    width: 84vw;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.container {
+    width: 64vw;
+    height: fit-content;
+    margin-top: 36px;
+    border-radius: 10px;
+    background-color: rgb(230, 230, 230);
+    
+}
+.profile {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+}
+
+.profile img {
+    
+    border: 1px solid;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+}
+
+.lista li {
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+}

@@ -28,7 +28,7 @@ const Login = () => {
                         <button className={styles.google}><FaFacebook /></button>
                     </div>
                     </div>
-                    <p className={styles.cadastro}>Sem uma conta?<a href="/cadastro" >cadastrar</a></p>
+                    <p className={styles.cadastro}>Sem uma conta?<Link to='/cadastro' >cadastrar</Link></p>
                 </div>
 
             </div>
