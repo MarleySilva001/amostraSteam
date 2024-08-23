@@ -1,0 +1,24 @@
+.view{
+    width: 83%;
+    height: fit-content;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 5.5vh 0vw;
+    background-color: rgb(255, 255, 255);
+}
+
+.main {
+    width: 43vw;
+    min-height: 88vh;
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+}
+
+.aside{
+    width: 32vw;
+    min-height: 88vh;
+    border-radius: 10px;
+    background-color:rgb(240, 240, 240);
+}
