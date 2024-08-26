@@ -3,6 +3,8 @@ import NavBar from '../components/layout/NavBar';
 import styles from "./Perfil.module.css";
 
 const Perfil = () => {
+const usuario = localStorage.getItem('usuario')
+
     return (
         <>
             <NavBar />
@@ -11,7 +13,7 @@ const Perfil = () => {
                     <div className={styles.profile}>
                         <img src="" alt="" />
                         <div>
-                            <p>nomeusuario</p>
+                            <p>{usuario}</p>
                         </div>
                     </div>
                     <div className={styles.favoritos}>

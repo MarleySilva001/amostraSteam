@@ -15,7 +15,7 @@ const Input = ({ type, placeholder, nome, value, onChange, name }) => {
                 onChange={onChange}
                 placeholder={placeholder} 
                 required 
-                minLength={7} 
+                minLength={4} 
                 maxLength={75} 
             />
         </div>

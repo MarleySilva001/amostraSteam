@@ -7,6 +7,22 @@
       "usuario": "admin",
       "senha": "adminadmin",
       "confirmarSenha": "adminadmin"
+    },
+    {
+      "id": "cdfa",
+      "nome": "Kalil Domingos Porto",
+      "email": "Kalilmaira@gmail.com",
+      "usuario": "KalilMaira",
+      "senha": "kalil123",
+      "confirmarSenha": "kalil123"
+    },
+    {
+      "id": "1c52",
+      "nome": "hfrghdhht",
+      "email": "fgjjunu@gmail.com",
+      "usuario": "adfufni",
+      "senha": "12345",
+      "confirmarSenha": "12345"
     }
   ],
   "clubes": [

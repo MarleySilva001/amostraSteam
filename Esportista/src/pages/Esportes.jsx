@@ -3,6 +3,7 @@ import axios from 'axios';
 import NavBar from '../components/layout/NavBar';
 import styles from './Esportes.module.css'
 import CardClube from '../components/layout/CardClube';
+import NavEsporte from '../components/layout/NavEsporte';
 
 const Esportes = () => {
   const [clubes, setclubes] = useState([]);
@@ -28,6 +29,7 @@ const Esportes = () => {
     <>
       <NavBar />
       <div>
+        <NavEsporte />
         <h1>clubes</h1>
         {carregando && <p>Carregando...</p>}
         {erro && <p>{erro}</p>}
