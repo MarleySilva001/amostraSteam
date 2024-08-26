@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import styles from "./Cadastro.module.css";
 import CadastroForm from '../components/layout/cadastroForm';
 import Button from '../components/layout/Button';
@@ -12,8 +12,10 @@ export default function Cadastro() {
         usuario: '',
         senha: '',
         confirmarSenha: ''
-    });
-
+    }); 
+    const [error,setError] = useState('')
+    const Navigate = useNavigate()
+         
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData({
@@ -33,10 +35,11 @@ export default function Cadastro() {
         try {
             await axios.post('http://localhost:5000/usuarios', formData);
             alert('Cadastro realizado com sucesso!');
+            Navigate('/home')
         } catch (error) {
             console.error('Erro ao enviar dados:', error);
             alert('Houve um erro ao cadastrar.');
-        }
+        }   
     };
 
     return (
@@ -45,6 +48,7 @@ export default function Cadastro() {
                 <div className={styles.box}>
                     <p className={styles.titulo}>Esportista</p>
                     <CadastroForm onChange={handleChange} formData={formData} onSubmit={handleSubmit} />
+                    {error && <p className={styles.error}>{error}</p>}
                     <p className={styles.cadastro}>
                         Já tem uma conta? <Link to="/login">Conectar</Link>
                     </p>

@@ -1,0 +1,19 @@
+.center{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.esqueceuSenha {
+    display: flex;
+    justify-content: end;
+    color: rgb(1, 0, 51);
+    text-decoration: none;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.esqueceuSenha:hover {
+    color: #4f9afb;
+    text-decoration: underline;
+}

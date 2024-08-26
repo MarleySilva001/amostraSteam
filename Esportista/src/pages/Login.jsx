@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
 import { FaFacebook } from "react-icons/fa6";
 import styles from './Login.module.css'
+import LoginForm from '../components/layout/LoginForm';
 
 const Login = () => {
     return (
@@ -15,12 +16,7 @@ const Login = () => {
                 <div className={styles.form}>
 
                     <p className={styles.titulo}>Esportista</p>
-                    <form action="">
-                        <Input nome={'usuario:'} type={'text'} placeholder={'Digite seu usuário ou email'} />
-                        <Input nome={'senha:'} type={'password'} placeholder={'Digite sua senha'} />
-                    </form>
-                    <a href="" className={styles.esqueceuSenha}>esqueceu a senha?</a>
-                    <Link to='/home'><Button nome={'Entrar'} /></Link>
+                        <LoginForm />
                     <div className={styles.center}>
                         <p>Logar Com</p>
                     <div className={styles.miniRow}>
