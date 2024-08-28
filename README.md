@@ -1,0 +1,7 @@
+<p style="text-align: center">**ESPORTISTA** é um site revolucionário que combina dados detalhados de futebol com uma rede social dedicada aos apaixonados pelo esporte. Inspirado no sucesso do SofaScore, o ESPORTISTA se destaca por oferecer uma experiência completa para os fãs de futebol, abrangendo desde estatísticas avançadas até interações sociais.
+
+Os usuários do ESPORTISTA podem acessar uma grande base de dados que contém estatísticas em tempo real e precisas sobre jogadores, times, campeonatos e jogos em todo o mundo. O site oferece ferramentas de análise poderosas, como gráficos de desempenho, comparações entre jogadores e previsões baseadas em algoritmos avançados. Além disso, o Esportista permite que os usuários personalizem suas notificações para que possam acompanhar seus times e jogadores favoritos, garantindo que nunca percam nenhum detalhe importante.
+
+O diferencial do ESPORTISTA é a integração de uma rede social exclusiva para fãs de futebol. Os usuários podem criar perfis, compartilhar suas opiniões sobre jogos, comentar em tempo real durante as partidas, e até mesmo participar de ligas de fantasy football. Essa comunidade vibrante oferece um espaço para debates, análises, e conexões entre torcedores do mundo todo. Com o ESPORTISTA, os fãs de futebol têm uma plataforma onde podem mergulhar nas estatísticas e, ao mesmo tempo, se engajar com uma comunidade global apaixonada pelo esporte.
+
+**ESPORTISTA:** onde dados precisos encontram a paixão pelo futebol.</p>
