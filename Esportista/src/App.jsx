@@ -11,6 +11,7 @@ import Futebol from "./pages/esportes/Futebol";
 import Volei from "./pages/esportes/Volei";
 import Basquete from "./pages/esportes/Basquete";
 import Americano from "./pages/esportes/Americano";
+import Flamengo from "./pages/clubes/flamengo";
 
 function App() {
  
@@ -29,6 +30,7 @@ function App() {
         <Route path="/redesocial" element={<RedeSocial />} />
         <Route path="/perfil" element={<Perfil />} />
         <Route path="/configuracoes" element={<Configuracoes />} />
+        <Route path="/esportes/futebol/clube/flamengo" element={<Flamengo />} />
       </Routes>
     </Router>
   )

@@ -4,6 +4,7 @@ import NavBar from '../../components/layout/NavBar';
 import styles from './Futebol.module.css'
 import CardClube from '../../components/layout/CardClube';
 import NavEsporte from '../../components/layout/NavEsporte';
+import { Link } from 'react-router-dom';
 
 const Futebol = () => {
   const [clubes, setclubes] = useState([]);

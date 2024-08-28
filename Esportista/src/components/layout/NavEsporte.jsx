@@ -10,26 +10,26 @@ const NavEsporte = () => {
             <li className={`${styles.sportLi} ${location.pathname === '/esportes' ? styles.active : ''}`}>
                 <Link to={'/esportes'}>
                     <PiSoccerBallFill />
-                    <p>futebol</p>
+                    <p>Futebol</p>
                 </Link>
             </li>
             <li className={`${styles.sportLi} ${location.pathname === '/esportes/volei' ? styles.active : ''}`}>
                 <Link to={'/esportes/volei'}>
                     <PiVolleyballFill />
-                    <p>volei</p>
+                    <p>Volei</p>
                 </Link>
             </li>
 
             <li className={`${styles.sportLi} ${location.pathname === '/esportes/basquete' ? styles.active : ''}`}>
                 <Link to={'/esportes/basquete'}>
                     <PiBasketballFill />
-                    <p>basquete</p>
+                    <p>Basquete</p>
                 </Link>
             </li>
             <li className={`${styles.sportLi} ${location.pathname === '/esportes/americano' ? styles.active : ''}`}>
                 <Link to={'/esportes/americano'}>
                     <PiFootballFill />
-                    <p>americano</p>
+                    <p>Americano</p>
                 </Link>
             </li>
         </ul>
