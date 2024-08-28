@@ -1,15 +1,15 @@
-.start{
+.start {
     display: flex;
     flex-direction: column;
-    position:fixed;
+    position: fixed;
     height: 100vh;
     width: 16vw;  
     gap: 40px;
     padding: 0px 10px 0px 14px;
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(233, 233, 233);
 }
 
-.cimento{
+.cimento {
     width: 16vw;
     padding: 0px 10px 0px 14px;
 }
@@ -28,11 +28,11 @@
     text-decoration: none;
 }
 
-.logo img{
+.logo img {
     width: 70px;
 }
 
-.lista{
+.lista {
     list-style: none;
     margin: 0px;
     padding: 0px;
@@ -41,11 +41,11 @@
     gap: 6px;
 }
 
-.item{
- display: flex;
- align-items: center;
- justify-content: center;
- border-radius: 6px;
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
 }
 
 .item a {
@@ -53,13 +53,14 @@
     width: 18vw;
     font-size: 16px;
     color: black;
-    padding: 6px 4px;
+    padding: 6px 8px;
     display: flex;
     gap: 8px;
     align-items: center;
+    transition: 0.35s;
 }
 
-.item svg{
+.item svg {
     width: 26px;
     height: 26px;
 }
@@ -68,3 +69,14 @@
     cursor: pointer;
     background-color: rgb(243, 243, 243);
 }
+
+.item a:hover svg {
+    scale: 110%;
+}
+
+.active {
+    font-weight: 660; 
+}
+
+
+

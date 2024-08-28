@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import NavBar from '../components/layout/NavBar';
-import styles from './Esportes.module.css'
-import CardClube from '../components/layout/CardClube';
-import NavEsporte from '../components/layout/NavEsporte';
+import NavBar from '../../components/layout/NavBar';
+import styles from './Futebol.module.css'
+import CardClube from '../../components/layout/CardClube';
+import NavEsporte from '../../components/layout/NavEsporte';
 
-const Esportes = () => {
+const Futebol = () => {
   const [clubes, setclubes] = useState([]);
   const [carregando, setCarregando] = useState(true);
   const [erro, setErro] = useState(null);
@@ -28,7 +28,7 @@ const Esportes = () => {
   return (
     <>
       <NavBar />
-      <div>
+      <div className={styles.view}>
         <NavEsporte />
         <h1>clubes</h1>
         {carregando && <p>Carregando...</p>}
@@ -50,4 +50,4 @@ const Esportes = () => {
   );
 };
 
-export default Esportes;
+export default Futebol;
