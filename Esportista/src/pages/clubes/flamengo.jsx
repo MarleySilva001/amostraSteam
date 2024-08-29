@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
+import BoxJogador from "../../components/layout/jogador&clube/BoxJogador";
 
 const Flamengo = () => {
     const [clubes, setClubes] = useState([]);
@@ -34,7 +35,13 @@ const Flamengo = () => {
             <ul>
                 {jogadores.map(jogador => (
                     <li key={jogador.id}>
-                        {jogador.nome}
+                        <BoxJogador 
+                        nome={jogador.nome}
+                        jogadorImg={jogador.jogadorImg}
+                        posicao={jogador.posicao}
+                        nacionalidade={jogador.nacionalidade}
+                        nacionalidadeImg={jogador.nacionalidadeImg}
+                        />
                     </li>
                 ))}
             </ul>

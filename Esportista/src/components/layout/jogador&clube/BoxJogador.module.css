@@ -1,0 +1,20 @@
+.border{
+    background-color: #ebebeb;
+    
+    border-radius: 12px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 32px;
+}
+
+.bottomBox{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #e0e0e0;
+}

@@ -48,14 +48,31 @@
       "clubeImg": "/clubes/FLA.png",
       "estadio": "Maracanã",
       "loc": "Rio de Janeiro-RJ", 
+      "competicoes": [
+        {
+          "Brasileirão":[
+            {
+              "Posição": "4°",
+              "Ano": "2024"
+            }
+          ],
+          "Copa do Brasil":[
+            {
+              "Fase": "Flamengo x Bahia - Quartas de final"
+            }
+          ]
+    
+        }
+      ],
       "jogadores": [
         {
           "id": "1",
           "nome": "Matheus Cunha",
           "posicao": "Goleiro",
           "idade": 23,
-          "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
-          "altura": "1.90m",
+          "jogadorImg": "/jogadores/flamengo/FLAmatheusC.png",
+          "nacionalidadeImg": "/pais/bra.png",
+          "nacionalidade": "Bra",
           "camisa": 25
         },
         {
@@ -63,8 +80,9 @@
           "nome": "Rossi",
           "posicao": "Goleiro",
           "idade": 29,
-          "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
-          "altura": "1.88m",
+          "jogadorImg": "/jogadores/flamengo/FLArossi.png",
+          "nacionalidadeImg": "/pais/arg.png",
+          "nacionalidade": "Arg",
           "camisa": 1
         },
         {
@@ -72,8 +90,9 @@
           "nome": "Cleiton",
           "posicao": "Zagueiro",
           "idade": 21,
-          "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
-          "altura": "1.90m",
+          "jogadorImg": "/jogadores/flamengo/FLAcleiton.png",
+          "nacionalidadeImg": "/pais/bra.png",
+          "nacionalidade": "Bra",
           "camisa": 33
         },
         {
@@ -81,8 +100,9 @@
           "nome": "David Luiz",
           "posicao": "Zagueiro",
           "idade": 37,
-          "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
-          "altura": "1.75m",
+          "jogadorImg": "/jogadores/flamengo/FLAdavidL.png",
+          "nacionalidadeImg": "/pais/bra.png",
+          "nacionalidade": "Bra",
           "camisa": 23
         },
         {
@@ -90,8 +110,9 @@
           "nome": "Léo Pereira",
           "posicao": "Zagueiro",
           "idade": 28,
-          "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
-          "altura": "m",
+          "jogadorImg": "/jogadores/flamengo/FLAleoP.png",
+          "nacionalidadeImg": "/pais/bra.png",
+          "nacionalidade": "Bra",
           "camisa": 4
         },
         {
@@ -99,8 +120,9 @@
           "nome": "Fabrício Bruno",
           "posicao": "Zagueiro",
           "idade": 28,
-          "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
-          "altura": "m",
+          "jogadorImg": "/jogadores/flamengo/FLAfabricioB.png",
+          "nacionalidadeImg": "/pais/bra.png",
+          "nacionalidade": "Bra",
           "camisa": 15
         },
         {
@@ -108,8 +130,9 @@
           "nome": "Léo Ortiz",
           "posicao": "Zagueiro",
           "idade": 28,
-          "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
-          "altura": "m",
+          "jogadorImg": "/jogadores/flamengo/FLAleoO.png",
+          "nacionalidadeImg": "/pais/bra.png",
+          "nacionalidade": "Bra",
           "camisa": 3
         },
         {
@@ -117,8 +140,9 @@
           "nome": "Varela",
           "posicao": "Lateral Direito",
           "idade": 31,
-          "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
-          "altura": "m",
+          "jogadorImg": "/jogadores/flamengo/FLAvarela.png",
+          "nacionalidadeImg": "/pais/uru.png",
+          "nacionalidade": "Uru",
           "camisa": 2
         },
         {
@@ -126,8 +150,9 @@
           "nome": "Wesley",
           "posicao": "Lateral Direito",
           "idade": 20,
-          "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
-          "altura": "m",
+          "jogadorImg": "/jogadores/flamengo/FLAwesley.png",
+          "nacionalidadeImg": "/pais/bra.png",
+          "nacionalidade": "Bra",
           "camisa": 43
         },
         {
@@ -135,8 +160,9 @@
           "nome": "Matías Viña",
           "posicao": "Lateral Esquerdo",
           "idade": 26,
-          "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
-          "altura": "m",
+          "jogadorImg": "/jogadores/flamengo/FLAmathiasV.png",
+          "nacionalidadeImg": "/pais/uru.png",
+          "nacionalidade": "Uru",
           "camisa": 176
         },
         {
@@ -144,8 +170,9 @@
           "nome": "Ayrton Lucas",
           "posicao": "Lateral Esquerdo",
           "idade": 27,
-          "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
-          "altura": "m",
+          "jogadorImg": "/jogadores/flamengo/FLAayrtonL.png",
+          "nacionalidadeImg": "/pais/bra.png",
+          "nacionalidade": "Bra",
           "camisa": 6
         },
         {
@@ -153,8 +180,9 @@
           "nome": "Erick Pulgar",
           "posicao": "Volante",
           "idade": 30,
-          "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
-          "altura": "m",
+          "jogadorImg": "/jogadores/flamengo/FLAerickP.png",
+          "nacionalidadeImg": "/pais/chi.png",
+          "nacionalidade": "Chi",
           "camisa": 5
         },
         {
@@ -162,8 +190,9 @@
           "nome": "Gerson",
           "posicao": "Volante",
           "idade": 27,
-          "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
-          "altura": "m",
+          "jogadorImg": "/jogadores/flamengo/FLAgerson.png",
+          "nacionalidadeImg": "/pais/bra.png",
+          "nacionalidade": "Bra",
           "camisa": 8
         },
         {
@@ -171,8 +200,9 @@
           "nome": "Allan",
           "posicao": "Volante",
           "idade": 27,
-          "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
-          "altura": "m",
+          "jogadorImg": "/jogadores/flamengo/FLAallan.png",
+          "nacionalidadeImg": "/pais/bra.png",
+          "nacionalidade": "Bra",
           "camisa": 21
         },
         {
@@ -180,8 +210,9 @@
           "nome": "Matheus Gonçalves",
           "posicao": "Meia",
           "idade": 19,
-          "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
-          "altura": "m",
+          "jogadorImg": "/jogadores/flamengo/FLAmatheusG.png",
+          "nacionalidadeImg": "/pais/bra.png",
+          "nacionalidade": "Bra",
           "camisa": 20
         },
         {
@@ -189,26 +220,29 @@
           "nome": "De Arrascaeta",
           "posicao": "Meia",
           "idade": 29,
-          "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
-          "altura": "m",
+          "jogadorImg": "/jogadores/flamengo/FLAarrascaeta.png",
+          "nacionalidadeImg": "/pais/uru.png",
+          "nacionalidade": "/Uru",
           "camisa": 14
         },
         {
           "id": "17",
-          "nome": "Victor Hugo",
-          "posicao": "",
-          "idade": 20,
-          "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
-          "altura": "m",
-          "camisa": 29
+          "nome": "Alcaraz",
+          "posicao": "Meia",
+          "idade": 21,
+          "jogadorImg": "/jogadores/flamengo/FLAalcaraz.png",
+          "nacionalidadeImg": "/pais/arg.png",
+          "nacionalidade": "Arg",
+          "camisa": 22
         },
         {
           "id": "18",
           "nome": "De La Cruz",
           "posicao": "Meia",
           "idade": 27,
-          "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
-          "altura": "m",
+          "jogadorImg": "/jogadores/flamengo/FLAdeLaCruz.png",
+          "nacionalidadeImg": "/pais/uru.png",
+          "nacionalidade": "Uru",
           "camisa": 18
         },
         {
@@ -216,8 +250,9 @@
           "nome": "Lorran",
           "posicao": "Meia",
           "idade": 2,
-          "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
-          "altura": "m",
+          "jogadorImg": "/jogadores/flamengo/FLAlorran.png",
+          "nacionalidadeImg": "/pais/bra.png",
+          "nacionalidade": "Bra",
           "camisa": 19
         },
         {
@@ -225,8 +260,9 @@
           "nome": "Gabi",
           "posicao": "",
           "idade": 27,
-          "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
-          "altura": "m",
+          "jogadorImg": "/jogadores/flamengo/FLA.png",
+          "nacionalidadeImg": "/pais/bra.png",
+          "nacionalidade": "Bra",
           "camisa": 99
         },
         {
@@ -234,8 +270,9 @@
           "nome": "Bruno Henrique",
           "posicao": "Atacante",
           "idade": 27,
-          "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
-          "altura": "m",
+          "jogadorImg": "/jogadores/flamengo/FLAbrunoH.png",
+          "nacionalidadeImg": "/pais/bra.png",
+          "nacionalidade": "Bra",
           "camisa": 33
         },
         {
@@ -243,8 +280,9 @@
           "nome": "Pedro",
           "posicao": "Atacante",
           "idade": 27,
-          "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
-          "altura": "m",
+          "jogadorImg": "/jogadores/flamengo/FLApedro.png",
+          "nacionalidadeImg": "/pais/bra.png",
+          "nacionalidade": "Bra",
           "camisa": 9
         },
         {
@@ -252,8 +290,9 @@
           "nome": "Everton Cebolinha",
           "posicao": "",
           "idade": 28,
-          "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
-          "altura": "m",
+          "jogadorImg": "/jogadores/flamengo/FLAevertonC.png",
+          "nacionalidadeImg": "/pais/bra.png",
+          "nacionalidade": "Bra",
           "camisa": 11
         },
         {
@@ -261,8 +300,9 @@
           "nome": "Luiz Araujo",
           "posicao": "Atacante",
           "idade": 28,
-          "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
-          "altura": "m",
+          "jogadorImg": "/jogadores/flamengo/FLAluizA.png",
+          "nacionalidadeImg": "/pais/bra.png",
+          "nacionalidade": "Bra",
           "camisa": 7
         },
         {
@@ -270,8 +310,9 @@
           "nome": "Carlinhos",
           "posicao": "Atacante",
           "idade": 28,
-          "jogadorImg": "https://link_da_imagem_do_jogador.jpg",
-          "altura": "m",
+          "jogadorImg": "/jogadores/flamengo/FLAcarlinhos.png",
+          "nacionalidadeImg": "/pais/bra.png",
+          "nacionalidade": "Bra",
           "camisa": 22
         }
       ]
@@ -348,7 +389,7 @@
     },
     {
       "id": "12",
-      "nome": "RB Bragantino",
+      "nome": "RB bragantino",
       "clubeImg": "/clubes/BRG.png",
       "estadio": "Nabi Abi Chedid",
       "loc": "Bragança Paulista-SP"
