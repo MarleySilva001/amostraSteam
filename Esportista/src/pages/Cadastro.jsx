@@ -31,10 +31,12 @@ export default function Cadastro() {
             alert('As senhas não coincidem.');
             return;
         }
+        localStorage.setItem('usuario', formData.usuario);
 
         try {
             await axios.post('http://localhost:5000/usuarios', formData);
             alert('Cadastro realizado com sucesso!');
+            localStorage.setItem('usuario', formData.usuario);
             Navigate('/home')
         } catch (error) {
             console.error('Erro ao enviar dados:', error);

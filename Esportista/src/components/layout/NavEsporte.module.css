@@ -7,12 +7,11 @@
 }
 
 .sportLi {
-    display: flex;
+    display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2px;
-    width: 80px;
+    width: 110px;
 }  
 
 .sportLi a {
@@ -21,16 +20,15 @@
     justify-content: center;
     align-items: center;
     margin: 0px;
-    width: 80px;
-    height: 100%;
+    width: 100%;
     text-decoration: none;
-    padding: 5.5px 14px;
+    margin: 5.5px 10px ;
 }
 
 .sportLi  a p {
     color: white;
     margin: 0px;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 .sportLi a svg {
@@ -45,7 +43,8 @@
 
 .active {
     background-color:#8B45CC;
-    border-bottom: rgb(255, 0, 0) solid 4.5px;
+    border-bottom: rgb(255, 0, 0) solid 4px;
+    border-top:#8B45CC solid 4px;
 }
 
 .active:hover {
