@@ -1,0 +1,10 @@
+.ul {
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+}
+
+.li {
+    list-style: none;
+}

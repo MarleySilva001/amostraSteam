@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 import BoxJogador from "../../components/layout/jogador&clube/BoxJogador";
+import styles from "./flamengo.module.css";
 
 const Flamengo = () => {
     const [clubes, setClubes] = useState([]);
@@ -32,9 +33,9 @@ const Flamengo = () => {
         <div>
             <p>Flamengo</p>
             <h1>Elenco</h1>
-            <ul>
+            <ul className={styles.ul}>
                 {jogadores.map(jogador => (
-                    <li key={jogador.id}>
+                    <li key={jogador.id} className={styles.li}>
                         <BoxJogador 
                         nome={jogador.nome}
                         jogadorImg={jogador.jogadorImg}

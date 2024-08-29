@@ -19,7 +19,7 @@
     {
       "id": "e916",
       "nome": "Jão Pedro",
-      "email": "uaowpedropinto@hotmail.com",
+      "email": "u aowpedropinto@hotmail.com",
       "usuario": "uaow157",
       "senha": "12345",
       "confirmarSenha": "12345"
@@ -59,6 +59,11 @@
           "Copa do Brasil":[
             {
               "Fase": "Flamengo x Bahia - Quartas de final"
+            }
+          ],
+          "Libertadores": [
+            {
+              "Fase": "Flamengo x Peñarol - Quartas de final"
             }
           ]
     
@@ -222,7 +227,7 @@
           "idade": 29,
           "jogadorImg": "/jogadores/flamengo/FLAarrascaeta.png",
           "nacionalidadeImg": "/pais/uru.png",
-          "nacionalidade": "/Uru",
+          "nacionalidade": "Uru",
           "camisa": 14
         },
         {
@@ -258,7 +263,7 @@
         {
           "id": "20",
           "nome": "Gabi",
-          "posicao": "",
+          "posicao": "Atacante",
           "idade": 27,
           "jogadorImg": "/jogadores/flamengo/FLA.png",
           "nacionalidadeImg": "/pais/bra.png",
@@ -288,7 +293,7 @@
         {
           "id": "23",
           "nome": "Everton Cebolinha",
-          "posicao": "",
+          "posicao": "Atacante",
           "idade": 28,
           "jogadorImg": "/jogadores/flamengo/FLAevertonC.png",
           "nacionalidadeImg": "/pais/bra.png",
