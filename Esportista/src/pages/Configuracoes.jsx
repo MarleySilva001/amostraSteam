@@ -1,4 +1,9 @@
-const YourComponent = () => {
+import React,{ useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import NavBar from "../components/layout/NavBar";
+
+
+const Configuracoes = () => {
     const navigate = useNavigate();
     const [usuario, setUsuario] = useState('');
     const [senha, setSenha] = useState('');
@@ -41,11 +46,14 @@ const YourComponent = () => {
       }
     };
   
-    return (
+    return (<>
+      <NavBar />
       <div>
         <button>apagar conta</button>
       </div>
+      <modalConfig></modalConfig>
+      </>
     );
   };
   
-  export default YourComponent;
+  export default Configuracoes;

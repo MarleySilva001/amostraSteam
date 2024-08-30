@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { IoChatbubblesSharp, IoHomeSharp, IoPerson, IoSettingsSharp } from "react-icons/io5";
 import { PiSoccerBallFill } from "react-icons/pi";
-import style from './NavBar.module.css';
+import style from './styles/NavBar.module.css';
 import logo from '/logo.png'
 
 const NavBar = () => {
