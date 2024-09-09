@@ -1,4 +1,9 @@
-const YourComponent = () => {
+import React,{ useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import axios from "axios";
+import NavBar from "../components/layout/NavBar";
+
+const Configuracoes = () => {
     const navigate = useNavigate();
     const [usuario, setUsuario] = useState('');
     const [senha, setSenha] = useState('');
@@ -9,7 +14,7 @@ const YourComponent = () => {
     useEffect(() => {
       const fetchData = async () => {
         try {
-          const response = await axios.get('../db.json');
+          const response = await axios.delete('../db.json');
           setUsers(response.data.usuarios);
         } catch (error) {
           setErro('Erro ao buscar os dados');
@@ -42,10 +47,13 @@ const YourComponent = () => {
     };
   
     return (
+    <>
+    <NavBar />
       <div>
         <button>apagar conta</button>
       </div>
+      </>
     );
   };
   
-  export default YourComponent;
+  export default Configuracoes;

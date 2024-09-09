@@ -8,7 +8,7 @@ const BoxJogador = ({ nome, jogadorImg, posicao, nacionalidade, nacionalidadeImg
                 <img src={jogadorImg} alt={nome} />
                 <p>{nome}</p>
             </div>
-            <div className={styles.bottomBox}>
+            <div className={styles.bottom}>
                 <p>{posicao}</p>
                 <div className={styles.row}>
                     <img src={nacionalidadeImg} alt={nacionalidade} />

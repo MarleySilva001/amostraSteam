@@ -1,18 +1,17 @@
-.border{
+.box{
     background-color: #ebebeb;
-    
     border-radius: 12px;
 }
 
-.box{
+.top{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 14px 32px;
+    background-color:#ebebeb;
 }
 
-.bottomBox{
+.bottom{
     display: flex;
     flex-direction: row;
     width: 100%;

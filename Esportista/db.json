@@ -235,7 +235,7 @@
           "nome": "Alcaraz",
           "posicao": "Meia",
           "idade": 21,
-          "jogadorImg": "/jogadores/flamengo/FLAalcaraz.png",
+          "jogadorImg": "/jogadores/flamengo/FLAalcaraz.jpg",
           "nacionalidadeImg": "/pais/arg.png",
           "nacionalidade": "Arg",
           "camisa": 22
@@ -265,7 +265,7 @@
           "nome": "Gabi",
           "posicao": "Atacante",
           "idade": 27,
-          "jogadorImg": "/jogadores/flamengo/FLA.png",
+          "jogadorImg": "/jogadores/flamengo/FLAgabrielB.png",
           "nacionalidadeImg": "/pais/bra.png",
           "nacionalidade": "Bra",
           "camisa": 99
