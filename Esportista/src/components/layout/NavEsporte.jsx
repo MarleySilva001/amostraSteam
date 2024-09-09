@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { PiBasketballFill, PiFootballFill, PiSoccerBallFill, PiVolleyballFill } from "react-icons/pi";
-import styles from "./NavEsporte.module.css"
+import styles from "./styles/NavEsporte.module.css"
 
 const NavEsporte = () => {
     const location = useLocation();

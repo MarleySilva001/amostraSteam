@@ -1,7 +1,7 @@
 import React from 'react';
 import Input from './Input';
 import Button from './Button';
-import styles from './cadastroForm.module.css'
+import styles from './styles/cadastroForm.module.css'
 
 const CadastroForm = ({ onChange, formData, onSubmit }) => {
     return (
