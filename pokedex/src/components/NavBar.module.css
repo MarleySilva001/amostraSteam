@@ -1,0 +1,52 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    width: 100vw;
+    background-color: red;
+    height: 88px;
+}
+
+.nav img {
+    width: 160px;
+}
+
+.lista {
+    list-style: none;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+    height: 100%;
+}
+
+.item a {
+    color: white;
+}
+
+.item a svg {
+    width: 26px;
+    height: 26px;
+}
+
+.item a p {
+    margin: 0px;
+}
+
+.item:hover {
+    background-color: rgb(201, 0, 0);
+}
+
+.item a:hover {
+    color: white;
+}

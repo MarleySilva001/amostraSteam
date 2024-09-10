@@ -1,9 +1,13 @@
 import React,{ useEffect, useState} from "react";
 import { Link } from "react-router-dom";
+import NavBar from "../components/NavBar";
 
 const Profile = () => {
     return(
-        <div></div>
+        <>
+        <NavBar />
+        <div>perfil</div>
+        </>
     )
 } 
   
