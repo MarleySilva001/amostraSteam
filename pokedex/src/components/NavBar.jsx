@@ -10,7 +10,7 @@ const NavBar = () => {
             <img src="/pokemonLogo.png" alt="" />
             <ul className={styles.lista}>
                 <li className={styles.item}>
-                    <Link to={'/'}>
+                    <Link to={'/inicio'}>
                         <IoMdHome />
                         <p>inicio</p>
                     </Link>

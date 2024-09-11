@@ -4,6 +4,9 @@ import './App.css'
 import Home from './pages/Home'
 import Pokedex from './pages/Pokedex';
 import Profile from './pages/Profile';
+import SplashScreen from './pages/SplashScreen';
+import Login from './pages/Login';
+import Cadastro from './pages/Cadastro';
 
 function App() {
 
@@ -12,7 +15,10 @@ function App() {
     <>
       <Router>
       <Routes>
-        <Route path="/" element={<Home />} />  
+        <Route path="/" element={<SplashScreen />} />  
+        <Route path="/login" element={<Login />} />  
+        <Route path="/cadastro" element={<Cadastro />} />  
+        <Route path="/inicio" element={<Home />} />  
         <Route path="/pokedex" element={<Pokedex />} />  
         <Route path="/perfil" element={<Profile />} />  
       </Routes>
