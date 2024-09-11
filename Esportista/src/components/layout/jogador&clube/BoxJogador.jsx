@@ -7,13 +7,12 @@ const BoxJogador = ({ nome, jogadorImg, posicao, nacionalidade, nacionalidadeImg
             <div className={styles.top}>
                 <img src={jogadorImg} alt={nome} />
                 <p>{nome}</p>
-            </div>
-            <div className={styles.bottom}>
+            <div className={styles.info}>
                 <p>{posicao}</p>
                 <div className={styles.row}>
                     <img src={nacionalidadeImg} alt={nacionalidade} />
-                    <p>{nacionalidade}</p>
-                </div>
+                    <p>{nacionalidade}</p></div>
+            </div>
             </div>
 
         </div>

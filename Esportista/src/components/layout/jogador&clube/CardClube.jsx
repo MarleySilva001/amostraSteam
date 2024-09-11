@@ -12,12 +12,10 @@ const CardClube = ({nome, clubeImg, estadio, loc, clube}) => {
             <nav>
                 <ul className={styles.ul}>
                     <li>
-                        estadio: {estadio}
+                        Estadio: {estadio}
                     </li>
                     <li>
-                        loc: {loc}
-                    </li>
-                    <li>
+                        Localização: {loc}
                     </li>
                 </ul>
             

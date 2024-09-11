@@ -1,5 +1,4 @@
 .sportUl {
-    background-color: #8B45CC;
     list-style: none;
     display: flex;
     margin: 0px;
@@ -43,10 +42,22 @@
 
 .active {
     background-color:#8B45CC;
-    border-bottom: rgb(255, 0, 0) solid 4px;
+    border-bottom: #5a1a96 solid 4px;
     border-top:#8B45CC solid 4px;
 }
 
 .active:hover {
     background-color:#8B45CC;
+}
+.navEsporte{
+    background-color: #8b45cc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%
+}
+.navEsporte input{
+    height: 20px;
+    width: 200px;
 }

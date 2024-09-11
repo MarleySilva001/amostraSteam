@@ -6,6 +6,7 @@ const NavEsporte = () => {
     const location = useLocation();
 
     return (
+        <nav className={styles.navEsporte}>
         <ul className={styles.sportUl}>
             <li className={`${styles.sportLi} ${location.pathname === '/esportes' ? styles.active : ''}`}>
                 <Link to={'/esportes'}>
@@ -33,6 +34,8 @@ const NavEsporte = () => {
                 </Link>
             </li>
         </ul>
+        <input type="text" />
+        </nav>
     );
 }
 

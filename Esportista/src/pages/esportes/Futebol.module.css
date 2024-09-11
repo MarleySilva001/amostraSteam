@@ -2,11 +2,14 @@
     width: 83%;
     display: flex;
     flex-direction: column;
-
     align-items: center;
-    padding: 5.5vh 0vw;
+    padding: 0px;
 }
 
 .lista{
     list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
+

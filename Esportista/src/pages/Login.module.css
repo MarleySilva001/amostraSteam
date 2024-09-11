@@ -5,7 +5,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #cea0f8be;
+    background-color: white;
+    
 }
 
 .miniRow {
@@ -57,7 +58,7 @@
     align-items: center;
     border-radius: 10px;
     height: 84vh;
-
+    box-shadow: 0px 2px 15px grey;
 }
 
 .center{

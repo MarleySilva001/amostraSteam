@@ -380,7 +380,7 @@
     },
     {
       "id": "10",
-      "nome": "Vasco da Gama",
+      "nome": "Vasco",
       "clubeImg": "/clubes/VAS.png",
       "estadio": " São Januário",
       "loc": "Rio de Janeiro-RJ"
@@ -394,7 +394,7 @@
     },
     {
       "id": "12",
-      "nome": "RB bragantino",
+      "nome": "Bragantino",
       "clubeImg": "/clubes/BRG.png",
       "estadio": "Nabi Abi Chedid",
       "loc": "Bragança Paulista-SP"

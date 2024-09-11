@@ -31,7 +31,7 @@ const Futebol = () => {
       <NavBar />
       <div className={styles.view}>
         <NavEsporte />
-        <h1>clubes</h1>
+        <h1></h1>
         {carregando && <p>Carregando...</p>}
         {erro && <p>{erro}</p>}
         <ul className={styles.lista}>
