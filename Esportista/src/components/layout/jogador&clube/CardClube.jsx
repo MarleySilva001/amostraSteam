@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./CardClube.module.css";
 
-const CardClube = ({nome, clubeImg, estadio, loc, clube}) => {
+const CardClube = ({nome, clubeImg, estadio, loc, item1, item2}) => {
     return(
         <Link to={`/esportes/futebol/clube/${nome}`}>
         <div className={styles.card}>
@@ -12,10 +12,10 @@ const CardClube = ({nome, clubeImg, estadio, loc, clube}) => {
             <nav>
                 <ul className={styles.ul}>
                     <li>
-                        Estadio: {estadio}
+                        <p>{item1} <span>{estadio}</span></p>
                     </li>
                     <li>
-                        Localização: {loc}
+                       <p> {item2} <span>{loc}</span></p>
                     </li>
                 </ul>
             

@@ -1,8 +1,16 @@
+.view {
+    width: 83%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+
 .ul {
     margin: 0px;
     padding: 0px;
     display: grid;
-    grid-template-columns: 176px 176px 176px 176px 176px;
+    grid-template-columns:repeat(4, 1fr)
 }
 
 .li {

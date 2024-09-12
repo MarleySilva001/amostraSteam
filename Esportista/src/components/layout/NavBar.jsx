@@ -20,7 +20,7 @@ const NavBar = () => {
             <li className={`${style.item} ${location.pathname === '/home' ? style.active : ''}`}>
               <Link to={'/home'}> <IoHomeSharp /> Início</Link>
             </li>
-            <li className={`${style.item} ${location.pathname === '/esportes' || location.pathname === '/esportes/volei' || location.pathname === '/esportes/basquete' || location.pathname === '/esportes/americano' ? style.active : ''}`}>
+            <li className={`${style.item} ${location.pathname === '/esportes' || location.pathname === '/esportes/volei' || location.pathname === '/esportes/basquete' || location.pathname === '/esportes/americano' || location.pathname === '/esportes/futebol/clube/Flamengo' ? style.active : ''}`}>
               <Link to={'/esportes'}><PiSoccerBallFill /> Esportes</Link>
             </li>
             <li className={`${style.item} ${location.pathname === '/redesocial' ? style.active : ''}`}>

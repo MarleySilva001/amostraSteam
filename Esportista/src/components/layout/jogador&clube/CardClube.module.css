@@ -28,7 +28,7 @@ a {
         flex-direction: row;
         align-items: center;
         justify-content: flex-start;
-        gap: 14px;
+        gap: 8px;
     }
     
     .row p{
@@ -49,7 +49,7 @@ a {
         justify-content: flex-start;
        flex-direction: column;
         padding: 6px 10px;
-        gap: 10px;
+        gap: 4px;
     }
     
     .ul li{
@@ -57,4 +57,9 @@ a {
         flex-direction: column;
 
 
+    }
+
+    .ul li p{
+        font-size: 13px;
+        margin: 0px;
     }

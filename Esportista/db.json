@@ -47,16 +47,16 @@
       "nome": "Flamengo",
       "clubeImg": "/clubes/FLA.png",
       "estadio": "Maracanã",
-      "loc": "Rio de Janeiro-RJ", 
+      "loc": "Rio de Janeiro-RJ",
       "competicoes": [
         {
-          "Brasileirão":[
+          "Brasileirão": [
             {
               "Posição": "4°",
               "Ano": "2024"
             }
           ],
-          "Copa do Brasil":[
+          "Copa do Brasil": [
             {
               "Fase": "Flamengo x Bahia - Quartas de final"
             }
@@ -66,7 +66,6 @@
               "Fase": "Flamengo x Peñarol - Quartas de final"
             }
           ]
-    
         }
       ],
       "jogadores": [
@@ -168,7 +167,7 @@
           "jogadorImg": "/jogadores/flamengo/FLAmathiasV.png",
           "nacionalidadeImg": "/pais/uru.png",
           "nacionalidade": "Uru",
-          "camisa": 176
+          "camisa": 17
         },
         {
           "id": "11",
@@ -375,7 +374,7 @@
       "id": "9",
       "nome": "Athletico-PR",
       "clubeImg": "/clubes/CAP.png",
-      "estadio": "Ligga Aerna",
+      "estadio": "Ligga Arena",
       "loc": "Curitiba-PR"
     },
     {
@@ -454,6 +453,218 @@
       "clubeImg": "/clubes/ACG.png",
       "estadio": "Antônio Accioly",
       "loc": "Goiânia-GO"
+    }
+  ],
+  "basquete": [
+    {
+      "id": "1",
+      "time": "Pacers",
+      "timeImg": "/times/Ipacers.png",
+      "conferencia": "Leste, Divisão Central",
+      "localizacao": "Indianápolis-IN, USA"
+    },
+    {
+      "id": "2",
+      "time": "Celtics",
+      "timeImg": "/times/Bceltics.png",
+      "conferencia": "Leste, Divisão do Atlântico",
+      "localizacao": "Boston-MA, USA"
+    },
+    {
+      "id": "3",
+      "time": "Thunder",
+      "timeImg": "/times/OCthunder.png",
+      "conferencia": "Oeste, Divisão Noroeste",
+      "localizacao": " Oklahoma City-OK, USA"
+    },
+    {
+      "id": "4",
+      "time": "Bucks",
+      "timeImg": "/times/Mbucks.png",
+      "conferencia": "Leste, Divisão Central",
+      "localizacao": "Milwaukee-WI, USA"
+    },
+    {
+      "id": "5",
+      "time": "Hawks",
+      "timeImg": "/times/Ahawks.png",
+      "conferencia": "Leste, Divisão Suldeste",
+      "localizacao": "Atlanta-GA, USA"
+    },
+    {
+      "id": "6",
+      "time": "Lakers",
+      "timeImg": "/times/LAlakers.png",
+      "conferencia": "Oeste, Divisão do Pacífico",
+      "localizacao": "Los Angeles-CA, USA"
+    },
+    {
+      "id": "7",
+      "time": "Mavericks",
+      "timeImg": "/times/Dmavericks.png",
+      "conferencia": "Oeste, Divisão Suldoeste",
+      "localizacao": "Dallas-TX, USA"
+    },
+    {
+      "id": "8",
+      "time": "Warriors",
+      "timeImg": "/times/GSwarriors.png",
+      "conferencia": "Oeste, Divisão do Pacífico",
+      "localizacao": "San Francisco-CA, USA"
+    },
+    {
+      "id": "9",
+      "time": "Kings",
+      "timeImg": "/times/Skings.png",
+      "conferencia": "Oeste, Divisão do Pacífico",
+      "localizacao": "Sacramento-CA, USA"
+    },
+    {
+      "id": "10",
+      "time": "Suns",
+      "timeImg": "/times/Psuns.png",
+      "conferencia": "Oeste, Divisão do Pacífico",
+      "localizacao": "Phoenix-AZ, USA"
+    },
+    {
+      "id": "11",
+      "time": "Jazz",
+      "timeImg": "/times/Ujazz.png",
+      "conferencia": "Oeste, Divisão Noroeste",
+      "localizacao": "Salt Lake City-UT, USA"
+    },
+    {
+      "id": "12",
+      "time": "Clippers",
+      "timeImg": "/times/LAclippers.png",
+      "conferencia": "Oeste, Divisão do Pacífico",
+      "localizacao": "Inglewood-CA, USA"
+    },
+    {
+      "id": "13",
+      "time": "Pelicans",
+      "timeImg": "/times/NOpelicans.png",
+      "conferencia": "Oeste, Divisão Suldoeste",
+      "localizacao": "New Orleans-LA, USA"
+    },
+    {
+      "id": "14",
+      "time": "Nuggets",
+      "timeImg": "/times/Dnuggets.png",
+      "conferencia": "Oeste, Divisão Noroeste",
+      "localizacao": "Denver-CO, USA"
+    },
+    {
+      "id": "15",
+      "time": "76ers",
+      "timeImg": "/times/P76ers.png",
+      "conferencia": "Leste, Divisão do Atlântico",
+      "localizacao": "Philadelphia-PA, USA"
+    },
+    {
+      "id": "16",
+      "time": "Rockets",
+      "timeImg": "/times/Hrockets.png",
+      "conferencia": "Oeste, Divisão Suldoeste",
+      "localizacao": "Houston-TX, USA"
+    },
+    {
+      "id": "17",
+      "time": "Wizards",
+      "timeImg": "/times/Wwizards.png",
+      "conferencia": "Leste, Divisão Suldeste",
+      "localizacao": "Washington, D.C., USA"
+    },
+    {
+      "id": "18",
+      "time": "Timberwolves",
+      "timeImg": "/times/Mtimberwolves.png",
+      "conferencia": "Oeste, Divisão Noroeste",
+      "localizacao": "Minneapolis-MN, USA"
+    },
+    {
+      "id": "19",
+      "time": "Knicks",
+      "timeImg": "/times/NYknicks.png",
+      "conferencia": "Leste, Divisão do Atlântico",
+      "localizacao": "New York-NY, USa"
+    },
+    {
+      "id": "20",
+      "time": "Cavaliers",
+      "timeImg": "/times/Ccavaliers.png",
+      "conferencia": "Leste, Divisão Central",
+      "localizacao": "Cleveland-OH, USA"
+    },
+    {
+      "id": "21",
+      "time": "Raptors",
+      "timeImg": "/times/Traptors.png",
+      "conferencia": "Leste, Divisão do Atlântico",
+      "localizacao": "Toronto-ON, Canada"
+    },
+    {
+      "id": "22",
+      "time": "Bulls",
+      "timeImg": "/times/Cbulls.png",
+      "conferencia": "Leste, Divisão Central",
+      "localizacao": "Chicago-IL, USA"
+    },
+    {
+      "id": "23",
+      "time": "Spurs",
+      "timeImg": "/times/SAspurs.png",
+      "conferencia": "Oeste, Divisão Suldoeste",
+      "localizacao": "San Antonio-TX, USA"
+    },
+    {
+      "id": "24",
+      "time": "Magic",
+      "timeImg": "/times/Omagic.png",
+      "conferencia": "Leste, Divisão Suldeste",
+      "localizacao": "Orlando-FL, USA"
+    },
+    {
+      "id": "25",
+      "time": "Nets",
+      "timeImg": "/times/Bnets.png",
+      "conferencia": "Leste, Divisão do Atlântico",
+      "localizacao": "Brooklyn-NY, USA"
+    },
+    {
+      "id": "26",
+      "time": "Heat",
+      "timeImg": "/times/Mheat.png",
+      "conferencia": "Leste, Divisão Suldeste",
+      "localizacao": "Miami-FL, USA"
+    },
+    {
+      "id": "27",
+      "time": "Pistons",
+      "timeImg": "/times/Dpistons.png",
+      "conferencia": "Leste, Divisão Central",
+      "localizacao": "Detroit-MI, USA"
+    },
+    {
+      "id": "28",
+      "time": "Hornets",
+      "timeImg": "/times/Chornets.png",
+      "conferencia": "Leste, Divisão Suldeste",
+      "localizacao": "Charlotte-NC, USA"
+    },
+    {
+      "id": "29",
+      "time": "Trail Blazers",
+      "timeImg": "/times/PtrailBlazers.png",
+      "conferencia": "Oeste, Divisão Noroeste",
+      "localizacao": " Portland-OR, USA"
+    },
+    {
+      "id": "30",
+      "time": "Grizzlies",
+      "timeImg": "/times/Mgrizzlies.png",
+      "conferencia": "Oeste, Divisão Suldoeste",
+      "localizacao": "Memphis-TN, USA"
     }
   ]
 }

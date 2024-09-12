@@ -42,6 +42,8 @@ const Futebol = () => {
               clubeImg={clube.clubeImg}
               estadio={clube.estadio}
               loc={clube.loc}
+              item1='estádio:'
+              item2='localização:'
               />
             </li>
           ))}

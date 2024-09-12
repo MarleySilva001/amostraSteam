@@ -8,13 +8,13 @@ const NavEsporte = () => {
     return (
         <nav className={styles.navEsporte}>
         <ul className={styles.sportUl}>
-            <li className={`${styles.sportLi} ${location.pathname === '/esportes' ? styles.active : ''}`}>
+            <li className={`${styles.sportLi} ${ location.pathname === '/esportes' || location.pathname === '/esportes/futebol/clube/Flamengo'  ? styles.active : ''}`}>
                 <Link to={'/esportes'}>
                     <PiSoccerBallFill />
                     <p>Futebol</p>
                 </Link>
             </li>
-            <li className={`${styles.sportLi} ${location.pathname === '/esportes/volei' ? styles.active : ''}`}>
+            <li className={`${styles.sportLi} ${location.pathname === '/esportes/volei'  ? styles.active : ''}`}>
                 <Link to={'/esportes/volei'}>
                     <PiVolleyballFill />
                     <p>Volei</p>
