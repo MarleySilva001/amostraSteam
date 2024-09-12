@@ -4,17 +4,15 @@ import { IoChatbubblesSharp, IoHomeSharp, IoPerson, IoSettingsSharp } from "reac
 import { PiSoccerBallFill } from "react-icons/pi";
 import style from './styles/NavBar.module.css';
 import logo from '/logo.png'
+import NavEsporte from './NavEsporte';
 
 const NavBar = () => {
   const location = useLocation();
 
   return (
     <>
-      <div className={style.cimento}></div>
-      <div className={style.start}>
-        <div className={style.logo}>
-          <Link to={'/home'}><img src={logo} alt="Logo" /> Esportista</Link>
-        </div>
+    <div className={style.cimento}></div>
+    <div className={style.start}>
         <nav>
           <ul className={style.lista}>
             <li className={`${style.item} ${location.pathname === '/home' ? style.active : ''}`}>

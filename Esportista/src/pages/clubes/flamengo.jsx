@@ -33,9 +33,9 @@ const Flamengo = () => {
 
     return (
         <>
-        <NavBar />
+        <NavBar /><NavEsporte />
             <div className={styles.view}>
-                <NavEsporte />
+                
                 <p>Flamengo</p>
                 <h1>Elenco</h1>
                 <ul className={styles.ul}>

@@ -1,8 +1,9 @@
 .sportUl {
     list-style: none;
     display: flex;
-    margin: 0px;
+    margin-left: 100px;
     padding: 0px;
+    gap: 20px;
 }
 
 .sportLi {
@@ -37,27 +38,58 @@
 }
 
 .sportLi:hover {
-    background-color: #5a1a96;
+    background-color: #bdbdbd;
 }
 
 .active {
-    background-color:#8B45CC;
-    border-bottom: #5a1a96 solid 4px;
-    border-top:#8B45CC solid 4px;
+    background-color:#b1b1b1;
+    border-bottom: #949494 solid 4px;
+    border-top:#9b9b9b solid 4px;
 }
 
 .active:hover {
-    background-color:#8B45CC;
+    background-color:#b8b8b8;
 }
 .navEsporte{
-    background-color: #8b45cc;
+    background-color: #8B45CC;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    width: 100%
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    gap: 6vw;   
 }
-.navEsporte input{
+.cimentoEsp{
+    height: 100px;
+}
+.inputEsp{
+    border-radius: 5px;
+    border: none;
     height: 20px;
-    width: 200px;
+    width: 300px;
+    
 }
+.logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.logo img {
+    width: 70px;
+}
+
+.view {
+    display: flex;
+    margin-top: 60px;
+}
+

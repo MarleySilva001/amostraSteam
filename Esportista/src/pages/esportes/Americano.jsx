@@ -8,11 +8,13 @@ const Americano = () => {
 
   return (
     <>
-      <NavBar />
-      <div className={styles.view}>
-        <NavEsporte />
+      <NavEsporte 
+      children={
+
         <h1>Futebol Americano</h1>
-      </div>
+      
+      } />
+      
     </>
   );
 };

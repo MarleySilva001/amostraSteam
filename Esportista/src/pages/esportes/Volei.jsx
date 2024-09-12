@@ -10,7 +10,6 @@ const Volei = () => {
     <>
       <NavBar />
       <div className={styles.view}>
-        <NavEsporte />
         <h1>Volei</h1>
       </div>
     </>

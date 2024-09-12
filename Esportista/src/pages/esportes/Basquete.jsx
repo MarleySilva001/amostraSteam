@@ -27,9 +27,8 @@ const Basquete = () => {
 
   return (
     <>
-      <NavBar />
-      <div className={styles.view}>
-        <NavEsporte />
+      <NavEsporte 
+      children={<div className={styles.view}>
         <h1></h1>
         {carregando && <p>Carregando...</p>}
         {erro && <p>{erro}</p>}
@@ -47,7 +46,9 @@ const Basquete = () => {
             </li>
           ))}
         </ul>
-      </div>
+      </div>}
+      />
+      
     </>
   );
 };
