@@ -9,22 +9,8 @@ const Perfil = () => {
         <>
             <NavEsporte
                 children={
-                    <div className={styles.view}>
-                        <div className={styles.container}>
-                            <div className={styles.profile}>
-                                <img src="" alt="" />
-                                <div>
-                                    <p>{usuario}</p>
-                                </div>
-                            </div>
-                            <div className={styles.favoritos}>
-                                <ul className={styles.lista}>
-                                    <li>
-                                        <img src="" alt="" />
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                    <div className={styles.imgfixo}>
+                        <img src="/Perfil.png" alt="" />
                     </div>
                 }
             />

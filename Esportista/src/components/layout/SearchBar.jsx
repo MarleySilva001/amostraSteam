@@ -16,7 +16,7 @@ const SearchBar = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('../../db.json');
+        const response = await axios.get('/db.json');
         setPesquisa(response.data.clubes);  
         setCarregando(false); 
       } catch (error) {

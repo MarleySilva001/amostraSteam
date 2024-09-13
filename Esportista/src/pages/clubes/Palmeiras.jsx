@@ -10,7 +10,7 @@ const Palmeiras = () => {
 
     async function fetchClubes() {
         try {
-            const response = await axios.get('../../../db.json');
+            const response = await axios.get('/db.json');
             setClubes(response.data.clubes);
         } catch (error) {
             console.error('Erro ao buscar os dados:', error);

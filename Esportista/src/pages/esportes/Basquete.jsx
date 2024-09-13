@@ -13,7 +13,7 @@ const Basquete = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('../../../db.json');
+        const response = await axios.get('/db.json');
         setTimes(response.data.basquete);
       } catch (error) {
         setErro('Erro ao buscar os dados');

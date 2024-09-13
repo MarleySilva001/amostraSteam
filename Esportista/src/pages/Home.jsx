@@ -7,14 +7,9 @@ const Home = () => {
         <>
             <NavEsporte
                 children={
-                    <div className={styles.view}>
-                        <div className={styles.main}>
-
-                        </div>
-                        <div className={styles.aside}>
-
-                        </div>
-                    </div>
+                    <div className={styles.imgfixo}>
+                    <img src="/home.png" alt="" />
+                </div>
                 }
             />
         </>

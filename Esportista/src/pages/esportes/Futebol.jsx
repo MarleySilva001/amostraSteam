@@ -14,7 +14,7 @@ const Futebol = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('../db.json');
+        const response = await axios.get('/db.json');
         setclubes(response.data.clubes);
       } catch (error) {
         setErro('Erro ao buscar os dados');
