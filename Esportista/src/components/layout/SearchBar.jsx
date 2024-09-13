@@ -5,10 +5,10 @@ import styles from "./styles/SearchBar.module.css";
 import { useNavigate } from "react-router-dom";
 
 const SearchBar = () => {
-  const [query, setQuery] = useState("");        // Armazena o valor digitado
+  const [query, setQuery] = useState("");
   const [pesquisa, setPesquisa] = useState([]);     
   const [filteredClubes, setFilteredClubes] = useState([]); 
-  const [carregando, setCarregando] = useState(true);       // Estado de carregamento
+  const [carregando, setCarregando] = useState(true);
   const [erro, setErro] = useState(null);        
   const [showDropdown, setShowDropdown] = useState(false);  
   const navigate = useNavigate()
@@ -26,8 +26,6 @@ const SearchBar = () => {
     };
     fetchData();
   }, []);
-
-  // Atualiza o valor do input e filtra os clubes
   const handleInputChange = (e) => {
     const searchValue = e.target.value;
     setQuery(searchValue);
@@ -51,11 +49,11 @@ const SearchBar = () => {
 
   const handleClear = () => {
     setQuery("");
-    setFilteredClubes([]); // Limpa os clubes filtrados
-    setShowDropdown(false); // Oculta o dropdown
+    setFilteredClubes([]); 
+    setShowDropdown(false); 
   };
 
-  // Exibe o estado de carregamento ou erro
+  
   if (carregando) {
     return <p>Carregando...</p>;
   }
@@ -74,8 +72,8 @@ const SearchBar = () => {
           placeholder="Pesquisar clubes"
           id="search"
           type="text"
-          value={query} // Valor do input controlado pelo estado
-          onChange={handleInputChange} // Atualiza o estado quando o input muda
+          value={query} 
+          onChange={handleInputChange}
           className={styles.input}
         />
         <div className={styles.icon}>
@@ -87,7 +85,6 @@ const SearchBar = () => {
         </label>
       </form>
 
-      {/* Dropdown para exibir os clubes filtrados */}
       {showDropdown && filteredClubes.length > 0 && (
         <ul className={styles.dropdown}>
           {filteredClubes.map((clube, index) => (
@@ -97,7 +94,7 @@ const SearchBar = () => {
               onClick={() => handleSelect(clube.nome)}
             >
                 <img src={clube.clubeImg} alt="" />
-              {clube.nome}  {/* Exibe o nome do clube */}
+              {clube.nome}  
             </li>
           ))}
         </ul>
