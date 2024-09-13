@@ -12,6 +12,8 @@ import Volei from "./pages/esportes/Volei";
 import Basquete from "./pages/esportes/Basquete";
 import Americano from "./pages/esportes/Americano";
 import Flamengo from "./pages/clubes/flamengo";
+import Botafogo from "./pages/clubes/Botafogo";
+import Palmeiras from "./pages/clubes/Palmeiras";
 
 function App() {
  
@@ -31,6 +33,8 @@ function App() {
         <Route path="/perfil" element={<Perfil />} />
         <Route path="/configuracoes" element={<Configuracoes />} />
         <Route path="/esportes/futebol/clube/flamengo" element={<Flamengo />} />
+        <Route path="/esportes/futebol/clube/palmeiras" element={<Palmeiras />} />
+        <Route path="/esportes/futebol/clube/botafogo" element={<Botafogo />} />
       </Routes>
     </Router>
   )

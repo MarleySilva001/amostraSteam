@@ -1,19 +1,22 @@
 import React from 'react';
-import NavBar from '../components/layout/NavBar';
 import styles from "./Home.module.css";
+import NavEsporte from '../components/layout/NavEsporte';
 
 const Home = () => {
     return (
         <>
-            <NavBar />
-            <div className={styles.view}>
-                <div className={styles.main}>
+            <NavEsporte
+                children={
+                    <div className={styles.view}>
+                        <div className={styles.main}>
 
-                </div>
-                <div className={styles.aside}>
+                        </div>
+                        <div className={styles.aside}>
 
-                </div>
-            </div>
+                        </div>
+                    </div>
+                }
+            />
         </>
     );
 }

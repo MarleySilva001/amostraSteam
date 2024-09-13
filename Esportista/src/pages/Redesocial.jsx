@@ -1,13 +1,17 @@
 import React from 'react';
-import NavBar from '../components/layout/NavBar';
+import NavEsporte from '../components/layout/NavEsporte';
 
 const RedeSocial = () => {
     return (
         <>
-        <NavBar />
-        <div>
-            Rede Social
-        </div>
+            <NavEsporte
+                children={
+                    <div>
+                        Rede Social
+                    </div>
+                }
+            />
+
         </>
     );
 }

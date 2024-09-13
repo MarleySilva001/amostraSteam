@@ -3,6 +3,7 @@ import logo from '/logo.png'
 import { PiBasketballFill, PiFootballFill, PiSoccerBallFill, PiVolleyballFill } from "react-icons/pi";
 import styles from "./styles/NavEsporte.module.css"
 import NavBar from "./NavBar";
+import SearchBar from "./SearchBar";
 
 const NavEsporte = ({ children }) => {
     const location = useLocation();
@@ -15,9 +16,9 @@ const NavEsporte = ({ children }) => {
                 <div className={styles.logo}>
                     <Link to={'/home'}><img src={logo} alt="Logo" /> Esportista</Link>
                 </div>
-                <input className={styles.inputEsp} type="text" placeholder=" 🔍︎ Pesquise um jogador" />
+                <SearchBar />
                 <ul className={styles.sportUl}>
-                    <li className={`${styles.sportLi} ${location.pathname === '/esportes' || location.pathname === '/esportes/futebol/clube/Flamengo' ? styles.active : ''}`}>
+                    <li className={`${styles.sportLi} ${location.pathname === '/esportes' || location.pathname === '/esportes/futebol/clube/Flamengo' || location.pathname === '/esportes/futebol/clube/Botafogo' || location.pathname === '/esportes/futebol/clube/Palmeiras' ? styles.active : ''}`}>
                         <Link to={'/esportes'}>
                             <PiSoccerBallFill />
                             <p>Futebol</p>

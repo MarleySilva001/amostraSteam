@@ -14,30 +14,10 @@
     margin-left: 21vw;
 }
 
-.logo {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    width: 100%;
-    height: 10vh;
-    background-color: #ffffff;
-}
-
-.logo a {
-    display: flex;
-    align-items: center;
-    font-size: 28px;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-
-.logo img {
-    width: 70px;
-}
-
 .lista {
     list-style: none;
     margin: 0px;
+    margin-top: 8px;
     padding: 0px;
     display: flex;
     flex-direction: column;

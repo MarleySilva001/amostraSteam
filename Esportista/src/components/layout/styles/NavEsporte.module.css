@@ -38,17 +38,17 @@
 }
 
 .sportLi:hover {
-    background-color: #bdbdbd;
+    background-color:#6e2bad;
 }
 
 .active {
-    background-color:#b1b1b1;
-    border-bottom: #949494 solid 4px;
-    border-top:#9b9b9b solid 4px;
+    background-color:#a756f3;
+    border-bottom:#6e2bad solid 4px;
+    border-top:#6e2bad solid 4px;
 }
 
 .active:hover {
-    background-color:#b8b8b8;
+    background-color:#a756f3;
 }
 .navEsporte{
     background-color: #8B45CC;

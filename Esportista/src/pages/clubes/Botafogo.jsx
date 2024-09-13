@@ -4,7 +4,7 @@ import BoxJogador from "../../components/layout/jogador&clube/BoxJogador";
 import styles from "./flamengo.module.css";
 import NavEsporte from "../../components/layout/NavEsporte";
 
-const Flamengo = () => {
+const Botafogo = () => {
     const [clubes, setClubes] = useState([]);
     const [jogadores, setJogadores] = useState([]);
 
@@ -21,7 +21,7 @@ const Flamengo = () => {
     }, []);
 
     useEffect(() => {
-        const clube = clubes.find(clube => clube.nome.toLowerCase() === 'flamengo');
+        const clube = clubes.find(clube => clube.nome.toLowerCase() === 'botafogo');
         if (clube) {
             setJogadores(clube.jogadores);
             console.log('Jogadores do clube:', clube.jogadores);
@@ -35,7 +35,7 @@ const Flamengo = () => {
         <NavEsporte />
             <div className={styles.view}>
                 
-                <p>Flamengo</p>
+                <p>Botafogo</p>
                 <h1>Elenco</h1>
                 <ul className={styles.ul}>
                     {jogadores.map(jogador => (
@@ -55,4 +55,4 @@ const Flamengo = () => {
     );
 }
 
-export default Flamengo;
+export default Botafogo;

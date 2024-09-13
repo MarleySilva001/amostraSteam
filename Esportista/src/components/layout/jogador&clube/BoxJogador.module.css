@@ -1,6 +1,8 @@
 .box{
     box-shadow: 1px 1px 10px grey ; 
     border-radius: 12px;
+    width: 154px;
+    padding: 0px 8px
 }
 
 .top{
@@ -13,10 +15,14 @@
 .top img {
     border-radius: 50%;
     width: 100px;
+    margin-top: 8px;
 }
 
 .top p {
-    font-weight: 500;
+    text-align: center;
+    font-weight: 600;
+    margin: 14px 0px;
+    height: 30px;
 }
 
 .info{
@@ -27,7 +33,7 @@
 }
 
 .info p{
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .row {
