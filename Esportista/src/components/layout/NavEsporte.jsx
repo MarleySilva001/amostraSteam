@@ -4,12 +4,14 @@ import { PiBasketballFill, PiFootballFill, PiSoccerBallFill, PiVolleyballFill } 
 import styles from "./styles/NavEsporte.module.css"
 import NavBar from "./NavBar";
 import SearchBar from "./SearchBar";
+import Footer from "./Footer";
 
 const NavEsporte = ({ children }) => {
     const location = useLocation();
 
     return (
         <>
+      
             <div className={styles.cimentoEsp}></div>
 
             <nav className={styles.navEsporte}>
@@ -48,9 +50,12 @@ const NavEsporte = ({ children }) => {
                 </ul>
             </nav>
             <div className={styles.view}>
-                <NavBar />         
+                <NavBar />
+                <div>
                     {children}
-            </div>
+                </div>
+                
+            </div> 
         </>
     );
 }

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import NavEsporte from "../components/layout/NavEsporte";
+import styles from "./Configuracoes.module.css"
 
 
 const Configuracoes = () => {
@@ -49,14 +50,37 @@ const Configuracoes = () => {
 
   return (
     <>
-      <NavEsporte
-        children={
-          <div>
-            <button>apagar conta</button>
+    <NavEsporte />
+    
+    <div className={styles.config}>
+      <div className={styles.settingsContainer}>
+        <h1 className={styles.settingsHeader}>Configurações</h1>
+        <div className={styles.settingsSection}>
+          <label className={styles.settingsLabel}>Dados da Conta</label>
+          <div className={styles.settingsSwitch}>
+            
           </div>
-        }
-      />
-
+        </div>
+        <div className={styles.settingsSection}>
+          <label className={styles.settingsLabel}>Dados Pessoais</label>
+          <div className={styles.settingsSwitch}>
+            
+          </div>
+        </div>
+        <div className={styles.settingsSection}>
+          <label className={styles.settingsLabel}>Notificações</label>
+          <div className={styles.settingsSwitch}>
+            
+          </div>
+        </div>
+        <div className={styles.settingsSection}>
+          <label className={styles.settingsLabel}>Segurança</label>
+          <div className={styles.settingsSwitch}>
+          </div>
+        </div>
+        <button className={styles.settingsButton}>Salvar</button>
+      </div>
+      </div>
     </>
   );
 };

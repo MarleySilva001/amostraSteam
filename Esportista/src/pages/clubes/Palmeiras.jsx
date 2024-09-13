@@ -35,8 +35,8 @@ const Palmeiras = () => {
         <NavEsporte />
             <div className={styles.view}>
                 
-                <p>Palmeiras</p>
-                <h1>Elenco</h1>
+               
+                <h1>Palmeiras</h1>
                 <ul className={styles.ul}>
                     {jogadores.map(jogador => (
                         <li key={jogador.id} className={styles.li}>

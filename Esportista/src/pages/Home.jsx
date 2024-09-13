@@ -1,10 +1,12 @@
 import React from 'react';
 import styles from "./Home.module.css";
 import NavEsporte from '../components/layout/NavEsporte';
+import Footer from '../components/layout/Footer';
 
 const Home = () => {
     return (
         <>
+        <div className={styles.home}>
             <NavEsporte
                 children={
                     <div className={styles.view}>
@@ -15,8 +17,12 @@ const Home = () => {
 
                         </div>
                     </div>
+                   
                 }
             />
+            
+            </div>
+          
         </>
     );
 }
