@@ -327,7 +327,7 @@
       "clubeImg": "/clubes/PAL.png",
       "estadio": "Allianz Park",
       "loc": "São Paulo-SP",
-      "jogadores":[
+      "jogadores": [
         {
           "id": "1",
           "nome": "Mateus Oliveira",
@@ -338,7 +338,7 @@
           "nacionalidade": "Bra",
           "camisa": 1
         },
-{
+        {
           "id": "2",
           "nome": "Marcelo Lomba",
           "posicao": "Goleiro",
@@ -607,8 +607,8 @@
           "nacionalidadeImg": "/pais/arg.png",
           "nacionalidade": "Arg",
           "camisa": 42
-},
- {
+        },
+        {
           "id": "28",
           "nome": "Rony",
           "posicao": "Atacante",
@@ -1125,140 +1125,140 @@
       "time": "Pacers",
       "timeImg": "/times/Ipacers.png",
       "conferencia": "Leste, Divisão Central",
-      "localizacao": "Indianápolis-IN, USA"
+      "localizacao": "Indianápolis-IN, EUA"
     },
     {
       "id": "2",
       "time": "Celtics",
       "timeImg": "/times/Bceltics.png",
       "conferencia": "Leste, Divisão do Atlântico",
-      "localizacao": "Boston-MA, USA"
+      "localizacao": "Boston-MA, EUA"
     },
     {
       "id": "3",
       "time": "Thunder",
       "timeImg": "/times/OCthunder.png",
       "conferencia": "Oeste, Divisão Noroeste",
-      "localizacao": " Oklahoma City-OK, USA"
+      "localizacao": " Oklahoma City-OK, EUA"
     },
     {
       "id": "4",
       "time": "Bucks",
       "timeImg": "/times/Mbucks.png",
       "conferencia": "Leste, Divisão Central",
-      "localizacao": "Milwaukee-WI, USA"
+      "localizacao": "Milwaukee-WI, EUA"
     },
     {
       "id": "5",
       "time": "Hawks",
       "timeImg": "/times/Ahawks.png",
       "conferencia": "Leste, Divisão Sudeste",
-      "localizacao": "Atlanta-GA, USA"
+      "localizacao": "Atlanta-GA, EUA"
     },
     {
       "id": "6",
       "time": "Lakers",
       "timeImg": "/times/LAlakers.png",
       "conferencia": "Oeste, Divisão do Pacífico",
-      "localizacao": "Los Angeles-CA, USA"
+      "localizacao": "Los Angeles-CA, EUA"
     },
     {
       "id": "7",
       "time": "Mavericks",
       "timeImg": "/times/Dmavericks.png",
       "conferencia": "Oeste, Divisão Suldoeste",
-      "localizacao": "Dallas-TX, USA"
+      "localizacao": "Dallas-TX, EUA"
     },
     {
       "id": "8",
       "time": "Warriors",
       "timeImg": "/times/GSwarriors.png",
       "conferencia": "Oeste, Divisão do Pacífico",
-      "localizacao": "San Francisco-CA, USA"
+      "localizacao": "San Francisco-CA, EUA"
     },
     {
       "id": "9",
       "time": "Kings",
       "timeImg": "/times/Skings.png",
       "conferencia": "Oeste, Divisão do Pacífico",
-      "localizacao": "Sacramento-CA, USA"
+      "localizacao": "Sacramento-CA, EUA"
     },
     {
       "id": "10",
       "time": "Suns",
       "timeImg": "/times/Psuns.png",
       "conferencia": "Oeste, Divisão do Pacífico",
-      "localizacao": "Phoenix-AZ, USA"
+      "localizacao": "Phoenix-AZ, EUA"
     },
     {
       "id": "11",
       "time": "Jazz",
       "timeImg": "/times/Ujazz.png",
       "conferencia": "Oeste, Divisão Noroeste",
-      "localizacao": "Salt Lake City-UT, USA"
+      "localizacao": "Salt Lake City-UT, EUA"
     },
     {
       "id": "12",
       "time": "Clippers",
       "timeImg": "/times/LAclippers.png",
       "conferencia": "Oeste, Divisão do Pacífico",
-      "localizacao": "Inglewood-CA, USA"
+      "localizacao": "Inglewood-CA, EUA"
     },
     {
       "id": "13",
       "time": "Pelicans",
       "timeImg": "/times/NOpelicans.png",
       "conferencia": "Oeste, Divisão Suldoeste",
-      "localizacao": "New Orleans-LA, USA"
+      "localizacao": "New Orleans-LA, EUA"
     },
     {
       "id": "14",
       "time": "Nuggets",
       "timeImg": "/times/Dnuggets.png",
       "conferencia": "Oeste, Divisão Noroeste",
-      "localizacao": "Denver-CO, USA"
+      "localizacao": "Denver-CO, EUA"
     },
     {
       "id": "15",
       "time": "76ers",
       "timeImg": "/times/P76ers.png",
       "conferencia": "Leste, Divisão do Atlântico",
-      "localizacao": "Philadelphia-PA, USA"
+      "localizacao": "Philadelphia-PA, EUA"
     },
     {
       "id": "16",
       "time": "Rockets",
       "timeImg": "/times/Hrockets.png",
       "conferencia": "Oeste, Divisão Suldoeste",
-      "localizacao": "Houston-TX, USA"
+      "localizacao": "Houston-TX, EUA"
     },
     {
       "id": "17",
       "time": "Wizards",
       "timeImg": "/times/Wwizards.png",
       "conferencia": "Leste, Divisão Sudeste",
-      "localizacao": "Washington, D.C., USA"
+      "localizacao": "Washington, D.C., EUA"
     },
     {
       "id": "18",
       "time": "Timberwolves",
       "timeImg": "/times/Mtimberwolves.png",
       "conferencia": "Oeste, Divisão Noroeste",
-      "localizacao": "Minneapolis-MN, USA"
+      "localizacao": "Minneapolis-MN, EUA"
     },
     {
       "id": "19",
       "time": "Knicks",
       "timeImg": "/times/NYknicks.png",
       "conferencia": "Leste, Divisão do Atlântico",
-      "localizacao": "New York-NY, USa"
+      "localizacao": "New York-NY, EUA"
     },
     {
       "id": "20",
       "time": "Cavaliers",
       "timeImg": "/times/Ccavaliers.png",
       "conferencia": "Leste, Divisão Central",
-      "localizacao": "Cleveland-OH, USA"
+      "localizacao": "Cleveland-OH, EUA"
     },
     {
       "id": "21",
@@ -1272,63 +1272,289 @@
       "time": "Bulls",
       "timeImg": "/times/Cbulls.png",
       "conferencia": "Leste, Divisão Central",
-      "localizacao": "Chicago-IL, USA"
+      "localizacao": "Chicago-IL, EUA"
     },
     {
       "id": "23",
       "time": "Spurs",
       "timeImg": "/times/SAspurs.png",
       "conferencia": "Oeste, Divisão Suldoeste",
-      "localizacao": "San Antonio-TX, USA"
+      "localizacao": "San Antonio-TX, EUA"
     },
     {
       "id": "24",
       "time": "Magic",
       "timeImg": "/times/Omagic.png",
       "conferencia": "Leste, Divisão Sudeste",
-      "localizacao": "Orlando-FL, USA"
+      "localizacao": "Orlando-FL, EUA"
     },
     {
       "id": "25",
       "time": "Nets",
       "timeImg": "/times/Bnets.png",
       "conferencia": "Leste, Divisão do Atlântico",
-      "localizacao": "Brooklyn-NY, USA"
+      "localizacao": "Brooklyn-NY, EUA"
     },
     {
       "id": "26",
       "time": "Heat",
       "timeImg": "/times/Mheat.png",
       "conferencia": "Leste, Divisão Sudeste",
-      "localizacao": "Miami-FL, USA"
+      "localizacao": "Miami-FL, EUA"
     },
     {
       "id": "27",
       "time": "Pistons",
       "timeImg": "/times/Dpistons.png",
       "conferencia": "Leste, Divisão Central",
-      "localizacao": "Detroit-MI, USA"
+      "localizacao": "Detroit-MI, EUA"
     },
     {
       "id": "28",
       "time": "Hornets",
       "timeImg": "/times/Chornets.png",
       "conferencia": "Leste, Divisão Sudeste",
-      "localizacao": "Charlotte-NC, USA"
+      "localizacao": "Charlotte-NC, EUA"
     },
     {
       "id": "29",
       "time": "Trail Blazers",
       "timeImg": "/times/PtrailBlazers.png",
       "conferencia": "Oeste, Divisão Noroeste",
-      "localizacao": " Portland-OR, USA"
+      "localizacao": " Portland-OR, EUA"
     },
     {
       "id": "30",
       "time": "Grizzlies",
       "timeImg": "/times/Mgrizzlies.png",
       "conferencia": "Oeste, Divisão Suldoeste",
-      "localizacao": "Memphis-TN, USA"
+      "localizacao": "Memphis-TN, EUA"
+    }
+  ],
+  "futebolAmericano": [
+    {
+      "id": "1",
+      "time": "Bills",
+      "img":"/NFL/Bbills.png",
+      "conferencia": "Americana, AFC Leste",
+      "localizacao": "Buffalo-NY, EUA"
+    },
+    {
+      "id": "2",
+      "time": "Patriots",
+      "img":"/NFL/NEpatriots.png",
+      "conferencia": "Americana, AFC Leste",
+      "localizacao": "Foxborough-MA, EUA"
+    },
+    {
+      "id": "3",
+      "time": "Dolphins",
+      "img":"/NFL/Mdolphins.png",
+      "conferencia": "Americana, AFC Leste",
+      "localizacao": "Miami Garden-FL, EUA"
+    },
+    {
+      "id": "4",
+      "time": "Jets",
+      "img":"/NFL/NYjets.png",
+      "conferencia": "Americana, AFC Leste",
+      "localizacao": "East Rutherford-NJ, EUA"
+    },
+    {
+      "id": "5",
+      "time": "Steelers",
+      "img":"/NFL/Psteelers.png",
+      "conferencia": "Americana, AFC Norte",
+      "localizacao": "Pittsburgh-PA, EUA"
+    },
+    {
+      "id": "6",
+      "time": "Ravens",
+      "img":"/NFL/Bravens.png",
+      "conferencia": "Americana, AFC Norte",
+      "localizacao": "Baltimore-MD, EUA"
+    },
+    {
+      "id": "7",
+      "time": "Bengals",
+      "img":"/NFL/Cbengals.png",
+      "conferencia": "Americana, AFC Norte",
+      "localizacao": "Cincinnati-OH, EUA"
+    },
+    {
+      "id": "8",
+      "time": "Browns",
+      "img":"/NFL/Cbrowns.png",
+      "conferencia": "Americana, AFC Norte",
+      "localizacao": "Cleveland-OH, EUA"
+    },
+    {
+      "id": "9",
+      "time": "Texans",
+      "img":"/NFL/Htexans.png",
+      "conferencia": "Americana, AFC Sul",
+      "localizacao": "Houston-TX, EUA"
+    },
+    {
+      "id": "10",
+      "time": "Colts",
+      "img":"/NFL/Icolts.png",
+      "conferencia": "Americana, AFC Sul",
+      "localizacao": "Indianápolis-IN, EUA"
+    },
+    {
+      "id": "11",
+      "time": "Titans",
+      "img":"/NFL/Ttitans.png",
+      "conferencia": "Americana, AFC Sul",
+      "localizacao": "Nashville-TN, EUA"
+    },
+    {
+      "id": "12",
+      "time": "Jaguars",
+      "img":"/NFL/Jjaguars.png",
+      "conferencia": "Americana, AFC Sul",
+      "localizacao": "Jacksonville-FL, EUA"
+    },
+    {
+      "id": "13",
+      "time": "Chargers",
+      "img":"/NFL/LAcharges.png",
+      "conferencia": "Americana, AFC Oeste",
+      "localizacao": "Inglewood-CA, EUA"
+    },
+    {
+      "id": "14",
+      "time": "Chiefs",
+      "img":"/NFL/KCchiefs.png",
+      "conferencia": "Americana, AFC Oeste",
+      "localizacao": "Kansas City-MO, EUA"
+    },
+    {
+      "id": "15",
+      "time": "Raiders",
+      "img":"/NFL/LVraiders.png",
+      "conferencia": "Americana, AFC Oeste",
+      "localizacao": "Las Vegas-NV, EUA"
+    },
+    {
+      "id": "16",
+      "time": "Broncos",
+      "img":"/NFL/Dbroncos.png",
+      "conferencia": "Americana, AFC Oeste",
+      "localizacao": "Denver-CO, EUA"
+    },
+    {
+      "id": "17",
+      "time": "Eagles",
+      "img":"/NFL/Peagles.png",
+      "conferencia": "Nacional, NFC Leste",
+      "localizacao": "Filadélfia-PA, EUA"
+    },
+    {
+      "id": "18",
+      "time": "Cowboys",
+      "img":"/NFL/Dcowboys.png",
+      "conferencia": "Nacional, NFC Leste",
+      "localizacao": "Arlington-TX, EUA"
+    },
+    {
+      "id": "19",
+      "time": "Commanders",
+      "img":"/NFL/Wcommanders.png",
+      "conferencia": "Nacional, NFC Leste",
+      "localizacao": "Landover-MD, EUA"
+    },
+    {
+      "id": "20",
+      "time": "Giants",
+      "img":"/NFL/NYgiants.png",
+      "conferencia": "Nacional, NFC Leste",
+      "localizacao": "East Rutherford-NJ, EUA"
+    },
+    {
+      "id": "21",
+      "time": "Vikings",
+      "img":"/NFL/Mvikings.png",
+      "conferencia": "Nacional, NFC Norte",
+      "localizacao": "Minneapolis-MN, EUA"
+    },
+    {
+      "id": "22",
+      "time": "Lions",
+      "img":"/NFL/Dlions.png",
+      "conferencia": "Nacional, NFC Norte",
+      "localizacao": "Detroit-MI, EUA"
+    },
+    {
+      "id": "23",
+      "time": "Bears",
+      "img":"/NFL/Cbears.png",
+      "conferencia": "Nacional, NFC Norte",
+      "localizacao": "Decatur-IL, EUA"
+    },
+    {
+      "id": "24",
+      "time": "Packers",
+      "img":"/NFL/GBpackers.png",
+      "conferencia": "Nacional, NFC Norte",
+      "localizacao": "Green Bay-WI, EUA"
+    },
+    {
+      "id": "25",
+      "time": "Saints",
+      "img":"/NFL/NOsaints.png",
+      "conferencia": "Nacional, NFC Sul",
+      "localizacao": "New Orleans-LA, EUA"
+    },
+    {
+      "id": "26",
+      "time": "Buccaneers",
+      "img":"/NFL/TBbuccaneers.png",
+      "conferencia": "Nacional, NFC Sul",
+      "localizacao": "Tampa-FL, EUA"
+    },
+    {
+      "id": "27",
+      "time": "Panthers",
+      "img":"/NFL/Cpanthers.png",
+      "conferencia": "Nacional, NFC Sul",
+      "localizacao": "Charlotte-NC, EUA"
+    },
+    {
+      "id": "28",
+      "time": "Falcons",
+      "img":"/NFL/Afalcons.png",
+      "conferencia": "Nacional, NFC Sul",
+      "localizacao": "Atlanta-GA, EUA"
+    },
+    {
+      "id": "29",
+      "time": "49ers",
+      "img":"/NFL/SF49ers.png",
+      "conferencia": "Nacional, NFC Oeste",
+      "localizacao": "Santa Clara-CA, EUA"
+    },
+    {
+      "id": "30",
+      "time": "Seahawks",
+      "img":"/NFL/Sseahawks.png",
+      "conferencia": "Nacional, NFC Oeste",
+      "localizacao": "Seattle-WA, EUA"
+    },
+    {
+      "id": "31",
+      "time": "Rams",
+      "img":"/NFL/LArams.png",
+      "conferencia": "Nacional, NFC Oeste",
+      "localizacao": "Inglewood-CA, EUA"
+    },
+    {
+      "id": "32",
+      "time": "Cardinals",
+      "img":"/NFL/Acardinals.png",
+      "conferencia": "Nacional, NFC Oeste",
+      "localizacao": "Glendale-AZ, EUA"
     }
   ]
 }

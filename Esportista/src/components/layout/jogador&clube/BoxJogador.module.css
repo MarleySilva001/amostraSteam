@@ -1,8 +1,14 @@
 .box{
-    box-shadow: 1px 1px 10px grey ; 
+    box-shadow: 1px 1px 10px rgb(202, 202, 202) ; 
     border-radius: 12px;
     width: 154px;
     padding: 0px 8px;
+    transition: all 0.2s;
+    background-color: white;
+}
+
+.box:hover{
+        box-shadow: 0px 0px 20px #8B45CC ;
 }
 
 .top{

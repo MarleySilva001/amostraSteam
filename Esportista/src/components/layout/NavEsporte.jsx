@@ -4,16 +4,13 @@ import { PiBasketballFill, PiFootballFill, PiSoccerBallFill, PiVolleyballFill } 
 import styles from "./styles/NavEsporte.module.css"
 import NavBar from "./NavBar";
 import SearchBar from "./SearchBar";
-import Footer from "./Footer";
 
 const NavEsporte = ({ children }) => {
     const location = useLocation();
 
     return (
         <>
-      
             <div className={styles.cimentoEsp}></div>
-
             <nav className={styles.navEsporte}>
                 <div className={styles.logo}>
                     <Link to={'/home'}><img src={logo} alt="Logo" /> Esportista</Link>
@@ -32,19 +29,16 @@ const NavEsporte = ({ children }) => {
                             <p>Basquete</p>
                         </Link>
                     </li>
-                    <li className={`${styles.sportLi} ${location.pathname === '/esportes/volei' ? styles.active : ''}`}>
-
-                        <Link to={'/esportes/volei'}>
-                            <PiVolleyballFill />
-                            <p>Volei</p>
-                        </Link>
-                    </li>
-
-
                     <li className={`${styles.sportLi} ${location.pathname === '/esportes/americano' ? styles.active : ''}`}>
                         <Link to={'/esportes/americano'}>
                             <PiFootballFill />
                             <p>Americano</p>
+                        </Link>
+                    </li>
+                    <li className={`${styles.sportLi} ${location.pathname === '/esportes/volei' ? styles.active : ''}`}>
+                        <Link to={'/esportes/volei'}>
+                            <PiVolleyballFill />
+                            <p>Volei</p>
                         </Link>
                     </li>
                 </ul>
@@ -54,8 +48,7 @@ const NavEsporte = ({ children }) => {
                 <div>
                     {children}
                 </div>
-                
-            </div> 
+            </div>
         </>
     );
 }

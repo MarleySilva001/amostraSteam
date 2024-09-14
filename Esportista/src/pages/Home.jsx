@@ -6,16 +6,13 @@ import Footer from '../components/layout/Footer';
 const Home = () => {
     return (
         <>
-        <div className={styles.home}>
             <NavEsporte
                 children={
                     <div className={styles.imgfixo}>
-                    <img src="/home.png" alt="" />
-                </div>
+                        <img src="/home.png" alt="" />
+                    </div>
                 }
-            /> 
-            </div>
-          
+            />
         </>
     );
 }
