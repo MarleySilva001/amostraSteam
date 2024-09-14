@@ -14,6 +14,7 @@ import Americano from "./pages/esportes/Americano";
 import Flamengo from "./pages/clubes/flamengo";
 import Botafogo from "./pages/clubes/Botafogo";
 import Palmeiras from "./pages/clubes/Palmeiras";
+import Warriors from "./pages/clubes/GSWarriors";
 
 function App() {
  
@@ -35,6 +36,7 @@ function App() {
         <Route path="/esportes/futebol/clube/flamengo" element={<Flamengo />} />
         <Route path="/esportes/futebol/clube/palmeiras" element={<Palmeiras />} />
         <Route path="/esportes/futebol/clube/botafogo" element={<Botafogo />} />
+        <Route path="/esportes/futebol/clube/warriors" element={<Warriors />} />
       </Routes>
     </Router>
   )

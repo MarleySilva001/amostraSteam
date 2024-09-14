@@ -1,0 +1,52 @@
+{
+  "usuarios": [
+    {
+      "id": "f10d",
+      "nome": "Kalil Portos",
+      "email": "kalilmaira@gmail.com",
+      "usuario": "admin",
+      "senha": "admin",
+      "confirmarSenha": "admin"
+    },
+    {
+      "id": "cdfa",
+      "nome": "Kalil Domingos Porto",
+      "email": "Kalilmaira@gmail.com",
+      "usuario": "KalilMaira",
+      "senha": "kalil123",
+      "confirmarSenha": "kalil123"
+    },
+    {
+      "id": "e916",
+      "nome": "Jão Pedro",
+      "email": "u aowpedropinto@hotmail.com",
+      "usuario": "uaow157",
+      "senha": "12345",
+      "confirmarSenha": "12345"
+    },
+    {
+      "id": "fde5",
+      "nome": "Teago Porto",
+      "email": "marley_c_silva@estudante.sesisenai.org.br",
+      "usuario": "teago_embesil",
+      "senha": "123qwe",
+      "confirmarSenha": "123qwe"
+    },
+    {
+      "id": "aa1b",
+      "nome": "emily",
+      "email": "marley_c_silva@estudante.sesisenai.org.br",
+      "usuario": "emily",
+      "senha": "1234",
+      "confirmarSenha": "1234"
+    },
+    {
+      "id": "1838",
+      "nome": "Caliu",
+      "email": "caliu@gmail.com",
+      "usuario": "kinglil",
+      "senha": "kalil123",
+      "confirmarSenha": "kalil123"
+    }
+  ]
+}

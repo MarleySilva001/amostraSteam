@@ -16,7 +16,7 @@ const LoginForm = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('../db.json');
+        const response = await axios.get('../../dbuser.json');
         setUsers(response.data.usuarios);
       } catch (error) {
         setErro('Erro ao buscar os dados');

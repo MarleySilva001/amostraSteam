@@ -1,46 +1,4 @@
 {
-  "usuarios": [
-    {
-      "id": "f10d",
-      "nome": "Kalil Portos",
-      "email": "kalilmaira@gmail.com",
-      "usuario": "admin",
-      "senha": "admin",
-      "confirmarSenha": "admin"
-    },
-    {
-      "id": "cdfa",
-      "nome": "Kalil Domingos Porto",
-      "email": "Kalilmaira@gmail.com",
-      "usuario": "KalilMaira",
-      "senha": "kalil123",
-      "confirmarSenha": "kalil123"
-    },
-    {
-      "id": "e916",
-      "nome": "Jão Pedro",
-      "email": "u aowpedropinto@hotmail.com",
-      "usuario": "uaow157",
-      "senha": "12345",
-      "confirmarSenha": "12345"
-    },
-    {
-      "id": "fde5",
-      "nome": "Teago Porto",
-      "email": "marley_c_silva@estudante.sesisenai.org.br",
-      "usuario": "teago_embesil",
-      "senha": "123qwe",
-      "confirmarSenha": "123qwe"
-    },
-    {
-      "id": "aa1b",
-      "nome": "emily",
-      "email": "marley_c_silva@estudante.sesisenai.org.br",
-      "usuario": "emily",
-      "senha": "1234",
-      "confirmarSenha": "1234"
-    }
-  ],
   "clubes": [
     {
       "id": "1",
@@ -1122,10 +1080,145 @@
   "basquete": [
     {
       "id": "1",
-      "time": "Pacers",
-      "timeImg": "/times/Ipacers.png",
-      "conferencia": "Leste, Divisão Central",
-      "localizacao": "Indianápolis-IN, EUA"
+      "time": "Warriors",
+      "timeImg": "/times/GSwarriors.png",
+      "conferencia": "Oeste, Divisão do Pacífico",
+      "localizacao": "San Francisco-CA, EUA",
+      "jogadores": [
+        {
+          "id": "1",
+          "nome": "Quinten Post",
+          "posicao": "Pivô",
+          "img": "/times/jogadores/GSwarriors/GSWquintenP.png",
+          "altura": "2.20m"
+        },
+        {
+          "id": "2",
+          "nome": "Trayce Jackson-Davis",
+          "posicao": "Ala Pivô",
+          "img": "/times/jogadores/GSwarriors/GSWtrayceJD.png",
+          "altura": "2.06m"
+        },
+        {
+          "id": "3",
+          "nome": "Draymond Green",
+          "posicao": "Ala Pivô",
+          "img": "/times/jogadores/GSwarriors/GSWdraymondG.png",
+          "altura": "1.98m"
+        },
+        {
+          "id": "4",
+          "nome": "Andrew Wiggins",
+          "posicao": "Ala Pivô",
+          "img": "/times/jogadores/GSwarriors/GSWandrewW.png",
+          "altura": "2.01m"
+        },
+        {
+          "id": "5",
+          "nome": "Gui Santos",
+          "posicao": "Ala Pivô",
+          "img": "/times/jogadores/GSwarriors/GSWguiS.png",
+          "altura": "1.97m"
+        },
+        {
+          "id": "6",
+          "nome": "Usman Garuba",
+          "posicao": "Ala Pivô",
+          "img": "/times/jogadores/GSwarriors/GSWusmanG.png",
+          "altura": "2.03m"
+        },
+        {
+          "id": "7",
+          "nome": "Kevon Looney",
+          "posicao": "Ala Pivô",
+          "img": "/times/jogadores/GSwarriors/GSWkevonL.png",
+          "altura": "2.06m"
+        },
+        {
+          "id": "8",
+          "nome": "Jonathan Kuminga",
+          "posicao": "Ala Pivô",
+          "img": "/times/jogadores/GSwarriors/GSWjonathanK.png",
+          "altura": "1.98m"
+        },
+        {
+          "id": "9",
+          "nome": "Kyle Anderson",
+          "posicao": "Ala Pivô",
+          "img": "/times/jogadores/GSwarriors/GSWkyleA.png",
+          "altura": "2.06m"
+        },
+        {
+          "id": "10",
+          "nome": "Pat Spencer",
+          "posicao": "Armador",
+          "img": "/times/jogadores/GSwarriors/GSWpatS.png",
+          "altura": "1.90m"
+        },
+        {
+          "id": "11",
+          "nome": "Stephen Curry",
+          "posicao": "Armador",
+          "img": "/times/jogadores/GSwarriors/GSWstephenC.png",
+          "altura": "1.91m"
+        },
+        {
+          "id": "12",
+          "nome": "Lester Quimones",
+          "posicao": "Ala Armador",
+          "img": "/times/jogadores/GSwarriors/GSWlesterQ.png",
+          "altura": "1.96m"
+        },
+        {
+          "id": "13",
+          "nome": "Jerome Robinson",
+          "posicao": "Ala Armador",
+          "img": "/times/jogadores/GSwarriors/GSWjeromeR.png",
+          "altura": "1.93m"
+        },
+        {
+          "id": "14",
+          "nome": "Moses Moody",
+          "posicao": "Ala Armador",
+          "img": "/times/jogadores/GSwarriors/GSWmosesM.png",
+          "altura": "1.98m"
+        },
+        {
+          "id": "15",
+          "nome": "Brandin Podziemski",
+          "posicao": "Ala Armador",
+          "img": "/times/jogadores/GSwarriors/GSWbrandinP.png",
+          "altura": "1.96m"
+        },
+        {
+          "id": "16",
+          "nome": "Gary Payton II",
+          "posicao": "Ala Armador",
+          "img": "/times/jogadores/GSwarriors/GSWgaryP.png",
+          "altura": "1.91m"
+        },
+        {
+          "id": "17",
+          "nome": "Lindy Waters III",
+          "posicao": "Ala Armador",
+          "img": "/times/jogadores/GSwarriors/GSWlindyW.png",
+          "altura": "1.91m"
+        },
+        {
+          "id": "18",
+          "nome": "De’Anthony Melton",
+          "posicao": "Armador",
+          "img": "/times/jogadores/GSwarriors/GSWanthonyM.png",
+          "altura": "1.88m"
+        },
+        {
+          "id": "19",
+          "nome": "Buddy Hield",
+          "posicao": "Armador",
+          "img": "/times/jogadores/GSwarriors/GSWbuddyH.png",
+          "altura": "1.93m"
+        }
+      ]
     },
     {
       "id": "2",
@@ -1171,10 +1264,10 @@
     },
     {
       "id": "8",
-      "time": "Warriors",
-      "timeImg": "/times/GSwarriors.png",
-      "conferencia": "Oeste, Divisão do Pacífico",
-      "localizacao": "San Francisco-CA, EUA"
+      "time": "Pacers",
+      "timeImg": "/times/Ipacers.png",
+      "conferencia": "Leste, Divisão Central",
+      "localizacao": "Indianápolis-IN, EUA"
     },
     {
       "id": "9",
@@ -1335,224 +1428,224 @@
     {
       "id": "1",
       "time": "Bills",
-      "img":"/NFL/Bbills.png",
+      "img": "/NFL/Bbills.png",
       "conferencia": "Americana, AFC Leste",
       "localizacao": "Buffalo-NY, EUA"
     },
     {
       "id": "2",
       "time": "Patriots",
-      "img":"/NFL/NEpatriots.png",
+      "img": "/NFL/NEpatriots.png",
       "conferencia": "Americana, AFC Leste",
       "localizacao": "Foxborough-MA, EUA"
     },
     {
       "id": "3",
       "time": "Dolphins",
-      "img":"/NFL/Mdolphins.png",
+      "img": "/NFL/Mdolphins.png",
       "conferencia": "Americana, AFC Leste",
       "localizacao": "Miami Garden-FL, EUA"
     },
     {
       "id": "4",
       "time": "Jets",
-      "img":"/NFL/NYjets.png",
+      "img": "/NFL/NYjets.png",
       "conferencia": "Americana, AFC Leste",
       "localizacao": "East Rutherford-NJ, EUA"
     },
     {
       "id": "5",
       "time": "Steelers",
-      "img":"/NFL/Psteelers.png",
+      "img": "/NFL/Psteelers.png",
       "conferencia": "Americana, AFC Norte",
       "localizacao": "Pittsburgh-PA, EUA"
     },
     {
       "id": "6",
       "time": "Ravens",
-      "img":"/NFL/Bravens.png",
+      "img": "/NFL/Bravens.png",
       "conferencia": "Americana, AFC Norte",
       "localizacao": "Baltimore-MD, EUA"
     },
     {
       "id": "7",
       "time": "Bengals",
-      "img":"/NFL/Cbengals.png",
+      "img": "/NFL/Cbengals.png",
       "conferencia": "Americana, AFC Norte",
       "localizacao": "Cincinnati-OH, EUA"
     },
     {
       "id": "8",
       "time": "Browns",
-      "img":"/NFL/Cbrowns.png",
+      "img": "/NFL/Cbrowns.png",
       "conferencia": "Americana, AFC Norte",
       "localizacao": "Cleveland-OH, EUA"
     },
     {
       "id": "9",
       "time": "Texans",
-      "img":"/NFL/Htexans.png",
+      "img": "/NFL/Htexans.png",
       "conferencia": "Americana, AFC Sul",
       "localizacao": "Houston-TX, EUA"
     },
     {
       "id": "10",
       "time": "Colts",
-      "img":"/NFL/Icolts.png",
+      "img": "/NFL/Icolts.png",
       "conferencia": "Americana, AFC Sul",
       "localizacao": "Indianápolis-IN, EUA"
     },
     {
       "id": "11",
       "time": "Titans",
-      "img":"/NFL/Ttitans.png",
+      "img": "/NFL/Ttitans.png",
       "conferencia": "Americana, AFC Sul",
       "localizacao": "Nashville-TN, EUA"
     },
     {
       "id": "12",
       "time": "Jaguars",
-      "img":"/NFL/Jjaguars.png",
+      "img": "/NFL/Jjaguars.png",
       "conferencia": "Americana, AFC Sul",
       "localizacao": "Jacksonville-FL, EUA"
     },
     {
       "id": "13",
       "time": "Chargers",
-      "img":"/NFL/LAcharges.png",
+      "img": "/NFL/LAcharges.png",
       "conferencia": "Americana, AFC Oeste",
       "localizacao": "Inglewood-CA, EUA"
     },
     {
       "id": "14",
       "time": "Chiefs",
-      "img":"/NFL/KCchiefs.png",
+      "img": "/NFL/KCchiefs.png",
       "conferencia": "Americana, AFC Oeste",
       "localizacao": "Kansas City-MO, EUA"
     },
     {
       "id": "15",
       "time": "Raiders",
-      "img":"/NFL/LVraiders.png",
+      "img": "/NFL/LVraiders.png",
       "conferencia": "Americana, AFC Oeste",
       "localizacao": "Las Vegas-NV, EUA"
     },
     {
       "id": "16",
       "time": "Broncos",
-      "img":"/NFL/Dbroncos.png",
+      "img": "/NFL/Dbroncos.png",
       "conferencia": "Americana, AFC Oeste",
       "localizacao": "Denver-CO, EUA"
     },
     {
       "id": "17",
       "time": "Eagles",
-      "img":"/NFL/Peagles.png",
+      "img": "/NFL/Peagles.png",
       "conferencia": "Nacional, NFC Leste",
       "localizacao": "Filadélfia-PA, EUA"
     },
     {
       "id": "18",
       "time": "Cowboys",
-      "img":"/NFL/Dcowboys.png",
+      "img": "/NFL/Dcowboys.png",
       "conferencia": "Nacional, NFC Leste",
       "localizacao": "Arlington-TX, EUA"
     },
     {
       "id": "19",
       "time": "Commanders",
-      "img":"/NFL/Wcommanders.png",
+      "img": "/NFL/Wcommanders.png",
       "conferencia": "Nacional, NFC Leste",
       "localizacao": "Landover-MD, EUA"
     },
     {
       "id": "20",
       "time": "Giants",
-      "img":"/NFL/NYgiants.png",
+      "img": "/NFL/NYgiants.png",
       "conferencia": "Nacional, NFC Leste",
       "localizacao": "East Rutherford-NJ, EUA"
     },
     {
       "id": "21",
       "time": "Vikings",
-      "img":"/NFL/Mvikings.png",
+      "img": "/NFL/Mvikings.png",
       "conferencia": "Nacional, NFC Norte",
       "localizacao": "Minneapolis-MN, EUA"
     },
     {
       "id": "22",
       "time": "Lions",
-      "img":"/NFL/Dlions.png",
+      "img": "/NFL/Dlions.png",
       "conferencia": "Nacional, NFC Norte",
       "localizacao": "Detroit-MI, EUA"
     },
     {
       "id": "23",
       "time": "Bears",
-      "img":"/NFL/Cbears.png",
+      "img": "/NFL/Cbears.png",
       "conferencia": "Nacional, NFC Norte",
       "localizacao": "Decatur-IL, EUA"
     },
     {
       "id": "24",
       "time": "Packers",
-      "img":"/NFL/GBpackers.png",
+      "img": "/NFL/GBpackers.png",
       "conferencia": "Nacional, NFC Norte",
       "localizacao": "Green Bay-WI, EUA"
     },
     {
       "id": "25",
       "time": "Saints",
-      "img":"/NFL/NOsaints.png",
+      "img": "/NFL/NOsaints.png",
       "conferencia": "Nacional, NFC Sul",
       "localizacao": "New Orleans-LA, EUA"
     },
     {
       "id": "26",
       "time": "Buccaneers",
-      "img":"/NFL/TBbuccaneers.png",
+      "img": "/NFL/TBbuccaneers.png",
       "conferencia": "Nacional, NFC Sul",
       "localizacao": "Tampa-FL, EUA"
     },
     {
       "id": "27",
       "time": "Panthers",
-      "img":"/NFL/Cpanthers.png",
+      "img": "/NFL/Cpanthers.png",
       "conferencia": "Nacional, NFC Sul",
       "localizacao": "Charlotte-NC, EUA"
     },
     {
       "id": "28",
       "time": "Falcons",
-      "img":"/NFL/Afalcons.png",
+      "img": "/NFL/Afalcons.png",
       "conferencia": "Nacional, NFC Sul",
       "localizacao": "Atlanta-GA, EUA"
     },
     {
       "id": "29",
       "time": "49ers",
-      "img":"/NFL/SF49ers.png",
+      "img": "/NFL/SF49ers.png",
       "conferencia": "Nacional, NFC Oeste",
       "localizacao": "Santa Clara-CA, EUA"
     },
     {
       "id": "30",
       "time": "Seahawks",
-      "img":"/NFL/Sseahawks.png",
+      "img": "/NFL/Sseahawks.png",
       "conferencia": "Nacional, NFC Oeste",
       "localizacao": "Seattle-WA, EUA"
     },
     {
       "id": "31",
       "time": "Rams",
-      "img":"/NFL/LArams.png",
+      "img": "/NFL/LArams.png",
       "conferencia": "Nacional, NFC Oeste",
       "localizacao": "Inglewood-CA, EUA"
     },
     {
       "id": "32",
       "time": "Cardinals",
-      "img":"/NFL/Acardinals.png",
+      "img": "/NFL/Acardinals.png",
       "conferencia": "Nacional, NFC Oeste",
       "localizacao": "Glendale-AZ, EUA"
     }
