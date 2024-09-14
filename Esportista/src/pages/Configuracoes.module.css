@@ -1,5 +1,9 @@
 .config{
     margin-top: 50px;
+    display: flex;
+    margin-left: 22vw;
+    align-items: center;
+
 }
 .settingsContainer {
     margin-top: 100px;
@@ -26,7 +30,10 @@
     padding: 10px 0;
     border-bottom: 1px solid #ddd;
   }
-  
+  .settingsSection:hover {
+    box-shadow: 0px 0px 15px #333;
+    border-radius: 10px;
+  }
   .settingsLabel {
     font-size: 16px;
   }

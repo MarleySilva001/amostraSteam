@@ -47,6 +47,22 @@
       "usuario": "kinglil",
       "senha": "kalil123",
       "confirmarSenha": "kalil123"
+    },
+    {
+      "id": "f7fa",
+      "nome": "alice",
+      "email": "alice@gmail.com",
+      "usuario": "alice",
+      "senha": "123456",
+      "confirmarSenha": "123456"
+    },
+    {
+      "id": "d0b5",
+      "nome": "jgjngjg",
+      "email": "hjhj@7iu",
+      "usuario": "adminjhj",
+      "senha": "1234",
+      "confirmarSenha": "1234"
     }
   ]
 }
